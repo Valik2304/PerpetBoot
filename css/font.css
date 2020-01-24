@@ -1,0 +1,56 @@
+@font-face {
+    font-family: 'Avenir-Light';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir Light'), local('Avenir Light'),
+         url("../fonts/Avenir-Light.woff") format('woff'),
+         url("../fonts/Avenir-Light.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Avenir-Medium';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir Medium'), local('Avenir Medium'),
+         url("../fonts/Avenir-Medium.woff") format('woff'),
+         url("../fonts/Avenir-Medium.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Avenir-Black';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Avenir Black'), local('Avenir Black'),
+         url("../fonts/Avenir-Black.woff") format('woff'),
+         url("../fonts/Avenir-Black.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Avenir-Heavy';
+    font-style: normal;
+    /*font-weight: 400;*/
+    src: local('Avenir Heavy'), local('Avenir Heavy'),
+    url("../fonts/Avenir-Heavy.woff") format('woff'),
+    url("../fonts/Avenir-Heavy.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'Avenir-Black';
+    font-style: normal;
+    /*font-weight: 400;*/
+    src: local('Avenir Black'), local('Avenir Black'),
+    url("../fonts/Avenir-Black.woff") format('woff'),
+    url("../fonts/Avenir-Black.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'ProductSans-Regular';
+    font-style: normal;
+    /*font-weight: 400;*/
+    src: local('ProductSans-Regular'), local('ProductSans-Regular'),
+    url("../fonts/ProductSans-Regular.woff") format('woff'),
+    url("../fonts/Product Sans Regular.woff2") format('woff2');
+}
+@font-face {
+    font-family: 'ProductSans-Bold';
+    font-style: normal;
+    /*font-weight: 400;*/
+    src: local('ProductSans-Bold'), local('ProductSans-Bold'),
+    url("../fonts/ProductSans-Bold.woff") format('woff'),
+    url("../fonts/Product Sans Bold.woff2") format('woff2');
+}
