@@ -220,8 +220,301 @@
         max-width: 800px;
     }
 
+    .cont_1{
+        padding-bottom: 5%;
+    }
+    .cont_2{
+        padding-bottom: 5%;
+    }
+    .cont_3{
+        padding-bottom: 5%;
+    }
 
     /*Section 7 end*/
+
+
+
+
+                /*SECTION 8 START*/
+
+                .section__8__footer .div_1{
+                    min-height: 700px;
+                    height: 100%;
+                    background: url("../img/Vector 6BIG.png") no-repeat;
+                    background-size: 100%;
+                    background-position: bottom;
+                    position: relative;
+                    z-index: 500;
+                }
+                .back{}
+
+                    .section__8__footer .div_1 .footer__text{
+                        /*max-width: 35%;*/
+                        max-width: 40%;
+                        padding-left: 7%;
+                    }
+                    .section__8__footer .div_1 .footer__text  h3{
+                        font-family: Avenir-Black;
+                       font-size: 36px;
+                    }
+                    .section__8__footer .div_1 .footer__text  p{
+                        font-family: Avenir-Light;
+                       font-size: 24px;
+                    }
+
+                .elements{
+                    position: absolute;
+                    /*font-family: Avenir-Heavy;*/
+
+                 }
+                .numbers{
+                    font-family: ProductSans-Bold;
+                    font-size: 220px;
+                    /*color: #F5F5F5;*/
+                    color: darkgray;
+                }
+
+                /*.elements h1{*/
+                /*    position: absolute;*/
+                /*    color: #F5F5F5;*/
+                /*    font-family: ProductSans-Bold;*/
+                /*    font-size: 180px;*/
+                /*    !*bottom: -70px;*!*/
+                /*    left: 5%;*/
+                /* }*/
+
+                .elements.element_1{
+                    bottom: 125px;
+                    /*z-index: 10;*/
+                    left: 5%;
+                }
+                .elements.element_2{
+                    bottom: 270px;
+                    /*z-index: 10;*/
+                    left: 50%;
+                }
+                .elements.element_3{
+                    bottom: 473px;
+                    /*z-index: 10;*/
+                    right: 10%;
+                }
+                               .elements .num_1{
+                                   padding: 0;
+                                   line-height: 200px;
+                                   top: -75px;
+                                    position: absolute;
+                                    /*bottom: -190px;*/
+                                    z-index: 0;
+
+
+                                }
+                               .elements .num_2{
+                                    position: relative;
+                                    bottom: -170px;
+                                   z-index: 0;
+                                }
+                               .elements .num_3{
+                                    position: relative;
+                                    bottom: -200px;
+                                   z-index: 0;
+                                }
+                            .elements .padding{
+                                padding-bottom: 30px;
+                                font-family: Avenir-Heavy;
+                                font-size: 24px;
+                                color: black;
+                                position: relative;
+                                text-align: center;
+                            }
+                .c1 {
+                    position: relative;
+                    z-index: 10;
+                    border: 1px solid white;
+                    border-radius: 50%;
+                    width: 45px;
+                    height: 45px;
+                    display: block;
+                    margin: 0 auto;
+                    text-align: center;
+                    line-height: 39px;
+                    font-size: 23px;
+                    background-color: white;
+                    box-shadow: 0 4px 15px rgba(0, 87, 167, 0.15);
+                }
+                /*.c1:active, .c1:focus{*/
+                /*    background: dodgerblue;*/
+                /*    border: 1px solid #2D2D2D;*/
+                /*}*/
+
+
+                .div_2{
+                    background: #333333;
+                    position: relative;
+                    min-height: 600px;
+                }
+                .div_2 .div_2_background{
+                    font-family: ProductSans-Bold;
+                    font-size: 280px;
+                    line-height: 280px;
+                    color: #2D2D2D;
+                    position: absolute;
+                    left: -50px;
+                }
+                .div_2_tittle{
+                    font-family: ProductSans-Bold;
+                    font-size: 96px;
+                    line-height: 130px;
+                    color: white;
+                    position: relative;
+                    z-index: 3;
+                    padding-bottom: 70px;
+                }
+
+                .div_2 .row .col-md-7{
+                    padding-left: 10%;/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!1*/
+                }
+
+
+                /*.div_2 .row.row_1{*/
+                /*    position: relative;*/
+                /*    top: 300px;*/
+                /*}*/
+                /*.div_2 .col-md-7{*/
+                /*    max-width: 65%;*/
+                /*    padding-left: 10%;*/
+                /*    !*left: 10%;*!*/
+                /*}*/
+
+                /*.bloc_text_background{*/
+                /*    !*background: InfoText;*!*/
+                /*}*/
+
+                /*.div_2 .div_2_text_background{*/
+                /*    font-family: ProductSans-Bold;*/
+                /*    font-size: 300px;*/
+                /*    line-height: 300px;*/
+                /*    color: #2D2D2D;*/
+                /*    position: relative;*/
+                /*    bottom: 150px;*/
+                /*    left: -50px;*/
+                /*}*/
+                /*.div_2 .form_message{*/
+                /*    !*padding-left: 50px;*!*/
+                /*    position: relative;*/
+                /*    z-index: 3;*/
+                /*}*/
+                .div_2 .form_message .field{
+                    width: 211px;
+                    font-family: Avenir-Medium;
+                    font-size: 18px;
+                    line-height: 26px;
+                    background: transparent;
+                    border: 0;
+                    border-bottom: 1px solid #FFFFFF;
+                    color: #FFFFFF;
+                    /*padding-bottom: 6px;*/
+
+                }
+                .field::placeholder{
+                    color: #ffffff;
+                    opacity: 1;
+                }
+
+                .div_2 .form_message .name{
+                    background:  url("../svg/person_name.svg") no-repeat left center;
+                    /*margin-right: 40px;*/
+                    padding-left: 28px;
+                    margin-bottom: 60px;
+                }
+                .col_name{
+                    max-width: 211px;
+                    margin-right: 40px;
+                }
+                .div_2 .form_message .email{
+                    background:  url("../svg/email_email.svg") no-repeat left center
+                    /*, url("../svg/alert-circle.svg") no-repeat right center*/
+                ;
+                    padding-left: 28px;
+                    /*margin-bottom: 60px;*/
+                }
+                            .div_2 .form_message .input_email::after{
+                                content: "PLEASE PROVIDE AN E-MAIL ADDRESS";
+                                color:  #BD3232;
+                                font-family: Avenir-Heavy;
+                                font-size: 10px;
+                                /*text-align: right;*/
+                                vertical-align: top;
+                                display: flex;
+
+                            }
+
+                .img_email_circle{
+                    padding-bottom: 5px;
+                }
+
+                .div_2 .form_message .message{
+                    width: 464px;
+                    padding-left: 4px;
+                    margin-bottom: 60px;
+                }
+                .div_2 .form_message .button{
+                    border: 1px solid #FFFFFF;
+                    box-sizing: border-box;
+                    border-radius: 28px;
+                    width: 240px;
+                    padding: 15px 0;
+                    /*padding-bottom: 15px;*/
+                }          .div_2 .form_message .button:hover{
+                                background: rgba(255, 255, 255, 0.15);
+                            }
+                            .div_2 .form_message .button:active{
+                                background: rgba(255, 255, 255, 0.45);
+                            }
+
+
+                /*.div_2 .col-md-5{*/
+                /*    position: relative;*/
+                /*    max-width: 42%;*/
+                /*}*/
+                .div_2 .list-unstyled {
+                    padding-top: 210px;
+                    /*padding-right: 20%;*/
+                    padding-left: 50%;
+
+                }
+                .div_2 .list-unstyled li{
+                    padding-bottom: 25px;
+
+                }.div_2 .list-unstyled li:last-child{
+                    padding-bottom: 0;
+                }
+
+
+                 footer {
+                     background: #333333;
+                     /*text-align: right;*/
+                 }
+                 footer div{
+                    text-align: right;
+                 }
+                footer div ul{
+                     list-style: none;
+                     color: #7B7B7B;
+                     font-family: ProductSans-Regular;
+                     font-size: 24px;
+                     line-height: 34px;
+                    padding-right: 9%;
+                    padding-bottom: 60px;
+                }
+                        footer div ul li{
+                             display: inline-block;
+                             padding-left: 50px;
+                         }
+
+
+
+            /*SECTION 8 END*/
+
 
 
     @media (max-width: 360px) {
@@ -684,6 +977,35 @@
             width: 100%;
             max-width: 90%;
         }
+
+                                                                    .section__8__footer .div_1{
+                                                                        background-size: 100% 400px;
+                                                                        min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
+                                                                    }
+                                                                    .section__8__footer .div_1 .footer__text h3{
+                                                                        font-size: 26px;
+                                                                    }
+                                                                    .section__8__footer .div_1 .footer__text p{
+                                                                        font-size: 17px;
+                                                                    }
+                                                                    .elements.element_1{
+                                                                        /*bottom: 190px;*/
+                                                                        bottom: 100px;
+                                                                        left: 5%;
+                                                                    }
+                                                                    .elements.element_2{
+                                                                        /*bottom: 350px;*/
+                                                                        bottom: 225px;
+                                                                        left: 50%;
+                                                                    }
+                                                                    .elements.element_3{
+                                                                        /*bottom: 560px;*/
+                                                                        bottom: 355px;
+                                                                        right: 10%;
+                                                                    }
+                                                            .div_2 .div_2_text_background{
+                                                                font-size: 170px;
+                                                            }
     }
 
     @media (min-width: 768px) and (max-width: 992px){
@@ -778,6 +1100,41 @@
             max-width: 88%;
         }
 
+
+                                                                    .section__8__footer .div_1{
+                                                                        background-size: 100% 450px;
+                                                                        /*min-height: 770px;!*більша висота блоку (з більшим шрифтом тексту)*!*/
+                                                                        min-height: 750px;
+                                                                    }
+                                                        .section__8__footer .div_1 .footer__text{
+                                                            /*max-width: 35%;*/
+                                                            max-width: 45%;
+                                                        }
+                                                                    .section__8__footer .div_1 .footer__text h3{
+                                                                        font-size: 29px;
+                                                                    }
+                                                                    .section__8__footer .div_1 .footer__text p{
+                                                                        font-size: 18px;
+                                                                    }
+                                                                            .elements.element_1{
+                                                                                /*bottom: 190px;*/
+                                                                                bottom: 113px;
+                                                                                left: 5%;
+                                                                            }
+                                                                            .elements.element_2{
+                                                                                /*bottom: 350px;*/
+                                                                                bottom: 247px;
+                                                                                left: 50%;
+                                                                            }
+                                                                            .elements.element_3{
+                                                                                /*bottom: 560px;*/
+                                                                                bottom: 406px;
+                                                                                right: 10%;
+                                                                            }
+                                                                    .div_2 .div_2_text_background{
+                                                                        font-size: 180px;
+                                                                    }
+
         /*.main__section__7__mobile .section__7__text__plus{*/
         /*    display: none;*/
         /*}*/
@@ -857,6 +1214,10 @@
             padding-bottom: 5%;
         }
 
+        .main__section__7__mobile .content_cen_2{
+            text-align: center;
+        }
+
         .main__section__7__mobile .display_bloc_none{
             display: block;
         }
@@ -878,6 +1239,36 @@
         .main__section__7__mobile .section__7__text__plus_2{
             display: none;
         }
+
+                                                            .section__8__footer .div_1{
+                                                                background-size: 100% 490px;
+                                                                min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
+                                                            }
+                                                            .section__8__footer .div_1 .footer__text h3{
+                                                                font-size: 31px;
+                                                            }
+                                                            .section__8__footer .div_1 .footer__text p{
+                                                                font-size: 20px;
+                                                            }
+                                                                    .elements.element_1{
+                                                                        /*bottom: 190px;*/
+                                                                        bottom: 122px;
+                                                                        left: 5%;
+                                                                    }
+                                                                    .elements.element_2{
+                                                                        /*bottom: 350px;*/
+                                                                        bottom: 260px;
+                                                                        left: 50%;
+                                                                    }
+                                                                    .elements.element_3{
+                                                                        /*bottom: 560px;*/
+                                                                        bottom: 444px;
+                                                                        right: 10%;
+                                                                    }
+
+                                                        .div_2 .div_2_text_background{
+                                                            font-size: 190px;
+                                                        }
     }
 
 
@@ -888,6 +1279,10 @@
                 }
                 .main__section__7__mobile .section__7__text__plus_2{
                     display: none;
+                }
+
+                .main__section__7__mobile .content_cen_2{
+                    text-align: center;
                 }
 
                 .left_white_tel{/* 1 mobile white tel*/
@@ -933,6 +1328,26 @@
                 .main__section__7__mobile .display_bloc_none_2{
                     display: none;
                 }
+
+                                                                    .section__8__footer .div_1{
+                                                                        background-size: 100% 520px;
+                                                                        min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
+                                                                    }
+                                                                    .section__8__footer .div_1 .footer__text h3{
+                                                                        font-size: 34px;
+                                                                    }
+                                                                    .section__8__footer .div_1 .footer__text p{
+                                                                        font-size: 22px;
+                                                                    }
+                                                                /*.elements.element_3{*/
+                                                                /*    !*bottom: 560px;*!*/
+                                                                /*    bottom: 473px;*/
+                                                                /*    right: 10%;*/
+                                                                /*}*/
+
+                                                    .div_2 .div_2_text_background{
+                                                        font-size: 230px;
+                                                    }
             }
 
     @media (min-width: 1620px) {
@@ -942,6 +1357,10 @@
         .main__section__7__mobile .section__7__text__plus_2{
             display: none;
         }
+        .main__section__7__mobile .content_cen_2{
+            text-align: center;
+        }
+
         .left_white_tel{/* 1 mobile white tel*/
             /*padding-left: 40px;*/
             padding-left: 6%;
@@ -987,7 +1406,32 @@
         .main__section__7__mobile .display_bloc_none_2{
             display: none;
         }
+
+                                                            .section__8__footer .div_1{
+                                                                background-size: 100% 550px;
+                                                                min-height: 780px;/*більша висота блоку (з більшим шрифтом тексту)*/
+                                                            }
+                                                                .elements.element_1{
+                                                                    /*bottom: 190px;*/
+                                                                    bottom: 133px;
+                                                                    left: 5%;
+                                                                }
+                                                                .elements.element_2{
+                                                                    /*bottom: 350px;*/
+                                                                    bottom: 275px;
+                                                                    left: 45%;
+                                                                }
+                                                                .elements.element_3{
+                                                                    /*bottom: 560px;*/
+                                                                    bottom: 508px;
+                                                                    /*right: 10%;*/
+                                                                    right: 5%;
+                                                                }
     }
+
+
+
+
     /*@media (min-width: 375px) and (max-width: 910px){*/
     /*    .main__section{*/
     /*        padding-bottom: 70px;*/

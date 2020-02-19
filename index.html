@@ -1,346 +1,620 @@
-    <!doctype html>
-    <html lang="uk">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport"
-              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-        <meta name="viewport" content="width-device-width, initial-scale=1.0">
-        <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Perpetio 2</title>
+<!doctype html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Perpetio 2</title>
 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
-        <link rel="stylesheet" href="css/main.css">
-        <link rel="stylesheet" href="css/font.css">
-    </head>
-    <body>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/font.css">
+</head>
+<body>
 
-    <!--<div class="navbar navbar-fixed-top">-->
-    <!--    <div class="container">-->
-    <!--        <div class="navbar-header">-->
-    <!--            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
-    <!--                <span class="icon-bar"></span>-->
-    <!--                <span class="icon-bar"></span>-->
-    <!--                <span class="icon-bar"></span>-->
-    <!--            </button>-->
-    <!--            <a href="/" class="navbar-brand">-->
-    <!--                <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio">-->
-    <!--            </a>-->
-    <!--        </div>-->
-    <!--        <div class="collapse navbar-collapse">-->
-    <!--            <ul class="nav navbar-nav navbar-right">-->
-    <!--                <li class="active">sdfsd</li>-->
-    <!--                <li class="#">afdgdfsd</li>-->
-    <!--                <li class="#">gdtg4sd</li>-->
-    <!--                <li class="#">2rgdfsd</li>-->
-    <!--            </ul>-->
-    <!--        </div>-->
-    <!--    </div>-->
-    <!--</div>-->
+<!--<div class="navbar navbar-fixed-top">-->
+<!--    <div class="container">-->
+<!--        <div class="navbar-header">-->
+<!--            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
+<!--                <span class="icon-bar"></span>-->
+<!--                <span class="icon-bar"></span>-->
+<!--                <span class="icon-bar"></span>-->
+<!--            </button>-->
+<!--            <a href="/" class="navbar-brand">-->
+<!--                <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio">-->
+<!--            </a>-->
+<!--        </div>-->
+<!--        <div class="collapse navbar-collapse">-->
+<!--            <ul class="nav navbar-nav navbar-right">-->
+<!--                <li class="active">sdfsd</li>-->
+<!--                <li class="#">afdgdfsd</li>-->
+<!--                <li class="#">gdtg4sd</li>-->
+<!--                <li class="#">2rgdfsd</li>-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--</div>-->
 
-    <header class="header sticky-top">
-           <nav class="navbar navbar-expand-md ">
-               <div class="container-fluid">
-                   <div class="navbar-header">
-                             <a href="/" class="navbar-brand hvr-buzz">
-                                 <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">
-                             </a>
-                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                               <span class="sr-only">Toggle navigation</span>
-                               <span class="icon-bar"></span>
-                               <span class="icon-bar"></span>
-                               <span class="icon-bar"></span>
-                           </button>
-                   </div>
+<header class="header sticky-top">
+    <!--           <nav class="navbar navbar-expand-md ">-->
+    <!--               <div class="container-fluid">-->
+    <!--                   <div class="navbar-header">-->
+    <!--                             <a href="/" class="navbar-brand hvr-buzz">-->
+    <!--                                 <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">-->
+    <!--                             </a>-->
+    <!--                           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">-->
+    <!--                               <span class="sr-only">Toggle navigation</span>-->
+    <!--                               <span class="icon-bar"></span>-->
+    <!--                               <span class="icon-bar"></span>-->
+    <!--                               <span class="icon-bar"></span>-->
+    <!--                           </button>-->
+    <!--                   </div>-->
 
-                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                       <ul class="navbar-nav  ml-auto">
-                           <li class="nav-item active home">
-                               <a href="#" class="nav-link home">Home</a>
-                           </li>
-                           <li class="nav-item">
-                               <a href="#" class="nav-link">Portfolio</a>
-                           </li>
-                           <li class="nav-item">
-                               <a href="#" class="nav-link">Careers</a>
-                           </li>
-                           <li class="nav-item">
-                               <a href="#" class="nav-link">Blog</a>
-                           </li>
-                           <li class="nav-item">
-                               <a href="#" class="nav-link">Contact Us</a>
-                           </li>
-                       </ul>
-                   </div>
-               </div>
-           </nav>
-
-    </header>
-
+    <!--                   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
+    <!--                       <ul class="navbar-nav  ml-auto">-->
+    <!--                           <li class="nav-item active home">-->
+    <!--                               <a href="#" class="nav-link home">Home</a>-->
+    <!--                           </li>-->
+    <!--                           <li class="nav-item">-->
+    <!--                               <a href="#" class="nav-link">Portfolio</a>-->
+    <!--                           </li>-->
+    <!--                           <li class="nav-item">-->
+    <!--                               <a href="#" class="nav-link">Careers</a>-->
+    <!--                           </li>-->
+    <!--                           <li class="nav-item">-->
+    <!--                               <a href="#" class="nav-link">Blog</a>-->
+    <!--                           </li>-->
+    <!--                           <li class="nav-item">-->
+    <!--                               <a href="#" class="nav-link">Contact Us</a>-->
+    <!--                           </li>-->
+    <!--                       </ul>-->
+    <!--                   </div>-->
+    <!--               </div>-->
+    <!--           </nav>-->
 
 
-    <main class="main">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+        <a href="/" class="navbar-brand hvr-buzz">
+            <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="container-fluid">
-              <section class="main__section">
-                  <div class="row">
-    <!--                  <div class="col-xs-12 col-sm-offset-1 col-sm-6">-->
-    <!--                      <h1 class="main__section_title">Mobile <br> dev. <br> Studio </h1>-->
-    <!--                  </div>-->
-    <!--                  <div class="col-xs-12 col-sm-offset-1 col-sm-4">-->
-    <!--                      <p class="main__section_text">The two <strong>cornerstones</strong> upon which  we build successful software are  <strong>user-centered</strong> interaction design  and <strong>scalable</strong> software architecture.</p>-->
-    <!--                  </div>-->
-                      <div class="  col-sm-7 col-md-6 col-lg-6">
-                          <h1 class="main__section_title">Mobile <br> dev. <br> Studio </h1>
-                      </div>
-                        <div class="offset-md-1  col-sm-5  col-md-4 col-lg-4">
-                            <p class="main__section_text">The two <strong>cornerstones</strong> upon which  we build successful software are  <strong>user-centered</strong> interaction design  and <strong>scalable</strong> software architecture.</p>
-                        </div>
-                  </div>
-              </section>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown09">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+</header>
 
 
-        <section class="main__section__2 text__animation  ">
-            <div class="container-fluid ">
-                <p class="main__section_text__2">
-                    - our services - our services
-                </p>
-            </div>
-        </section>
+<main class="main">
 
-        <section class="main__section__3 bloc__margin">
-            <div class="container-fluid">
-                <div class="main__section_bloc_3">
-                   <div class="row centered shadow  bg-white rounded bloc">
-
-                       <div class="col-sm-6 col-md-4 bg-white">
-                               <p> <strong>iOS</strong>
-                                   <br>  Development
-                               </p>
-                       </div>
-
-                       <div class="col-sm-6 col-md-4 bg-white">
-                                <p> <strong>Android</strong>
-                                    <br> Development
-                                </p>
-                       </div>
-                       <div class="col-sm-6 col-md-4 bg-white">
-                                <p> <strong>UX/UI </strong>
-                                    <br> Design
-                                </p>
-                       </div>
-                       <div class="col-sm-6 col-md-4 bg-white">
-                                <p> <strong>Web</strong>
-                                    <br> Development
-                                </p>
-                       </div>
-                       <div class="col-sm-6 col-md-4 bg-white">
-                                <p> <strong>Project</strong>
-                                    <br> Management
-                                </p>
-                       </div>
-                       <div class="col-sm-6 col-md-4 bg-white">
-                                <p> <strong>Quality</strong>
-                                    <br> Assurance
-                                </p>
-                       </div>
-                   </div>
+    <div class="container-fluid">
+        <section class="main__section">
+            <div class="row">
+                <!--                  <div class="col-xs-12 col-sm-offset-1 col-sm-6">-->
+                <!--                      <h1 class="main__section_title">Mobile <br> dev. <br> Studio </h1>-->
+                <!--                  </div>-->
+                <!--                  <div class="col-xs-12 col-sm-offset-1 col-sm-4">-->
+                <!--                      <p class="main__section_text">The two <strong>cornerstones</strong> upon which  we build successful software are  <strong>user-centered</strong> interaction design  and <strong>scalable</strong> software architecture.</p>-->
+                <!--                  </div>-->
+                <div class="  col-sm-7 col-md-6 col-lg-6">
+                    <h1 class="main__section_title">Mobile <br> dev. <br> Studio </h1>
+                </div>
+                <div class="offset-md-1  col-sm-5  col-md-4 col-lg-4">
+                    <p class="main__section_text">The two <strong>cornerstones</strong> upon which we build successful
+                        software are <strong>user-centered</strong> interaction design and <strong>scalable</strong>
+                        software architecture.</p>
                 </div>
             </div>
         </section>
-
-        <section class="main__section__5 text__animation">
-            <div class="container-fluid ">
-                <p class="main__section_text__5">
-                    - success numbers - success
-                </p>
-            </div>
-        </section>
-
-        <section class="main__section__4 bloc__margin">
-            <div class="container-fluid">
-                <div class="row centered text-center shadow bg-white rounded ">
-                    <div class="col-6 col-md-3 bg-white border_1">
-                            <div class="bloc__4 text-center ">
-                                <p class="number"> 48 </p>
-                                <p class="bloc__4__text"> <strong>projects</strong>  <br> delivered</p>
-                            </div>
-                    </div>
-                    <div class="col-6 col-md-3 bg-white border_1">
-
-                            <div class="bloc__4 text-center">
-                                <p class="number"> 50</p>
-                                <p class="bloc__4__text"> <strong>millions </strong>  <br> downloads</p>
-                            </div>
-
-                    </div>
-                    <div class="col-6 col-md-3 bg-white border_1">
-
-                            <div class="bloc__4 text-center">
-                                <p class="number"> 38 </p>
-                                <p class="bloc__4__text"> <strong>happy</strong>  <br>  clients</p>
-                            </div>
-
-                    </div>
-                    <div class="col-6 col-md-3 bg-white border_1">
-
-                            <div class="bloc__4 text-center">
-                                <p class="number"> 241 </p>
-                                <p class="bloc__4__text"> <strong>daily </strong>  <br> users</p>
-                            </div>
-
-                    </div>
-            </div>
-          </div>
-
-        </section>
-
-        <section class="main__section__6  ">
-            <div class="container-fluid ">
-                <p class="main__section__6_text__1 text__animation__2">
-                    VISION
-                </p>
-                <p class="main__section__6_text__2 text-center">
-                    WE LOVE TAKING PRODUCTS <br> FROM VISION TO REALITY
-                </p>
-                <p class="main__section__6_text__3 text__animation__2 text-right">
-                    REALITY
-                </p>
-            </div>
-        </section>
+    </div>
 
 
+    <section class="main__section__2 text__animation  ">
+        <div class="container-fluid ">
+            <p class="main__section_text__2">
+                - our services - our services
+            </p>
+        </div>
+    </section>
 
-        <hr>
+    <section class="main__section__3 bloc__margin">
+        <div class="container-fluid">
+            <div class="main__section_bloc_3">
+                <div class="row centered shadow  bg-white rounded bloc">
 
-
-
-        <section class="main__section__7__mobile">
-            <div class="container-fluid   cont_1">
-                <div class="row">
-                    <div class=" col-lg-6 content_cen  padding_top_white_tel">
-    <!--                    пробую всюди з точки md а не xl-->
-                             <div class="">
-                                 <img src="/svg/Group_in_textBurn(1).svg" class="logo_tel" alt="">
-                             </div>
-                            <div class=" section__7__text__burn texts left_white_tel">
-                                <p>The BURN – makes it so easy to stay on track with an electronic workout calendar, so you’ll never skip leg day.</p>
-                            </div>
-
-                            <div class="left_white_tel bloc__plus">
-                                <p class="section__7__text__plus">View Case Study <img src="/svg/plus_logo_Plus.svg" alt="" class="plus"> </p>
-                            </div>
+                    <div class="col-sm-6 col-md-4 bg-white">
+                        <p><strong>iOS</strong>
+                            <br> Development
+                        </p>
                     </div>
 
-                    <div class="col-lg-6  white_tel">
-                        <img src="/img/Group 76united_1(1).png"  class="img_white_tel" alt="">
-
-                        <p class="section__7__text__plus_2">View Case Study
-                            <img src="/img/plus_logo_Plus.png" alt="" class="plus">
+                    <div class="col-sm-6 col-md-4 bg-white">
+                        <p><strong>Android</strong>
+                            <br> Development
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 bg-white">
+                        <p><strong>UX/UI </strong>
+                            <br> Design
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 bg-white">
+                        <p><strong>Web</strong>
+                            <br> Development
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 bg-white">
+                        <p><strong>Project</strong>
+                            <br> Management
+                        </p>
+                    </div>
+                    <div class="col-sm-6 col-md-4 bg-white">
+                        <p><strong>Quality</strong>
+                            <br> Assurance
                         </p>
                     </div>
                 </div>
             </div>
+        </div>
+    </section>
 
+    <section class="main__section__5 text__animation">
+        <div class="container-fluid ">
+            <p class="main__section_text__5">
+                - success numbers - success
+            </p>
+        </div>
+    </section>
 
+    <section class="main__section__4 bloc__margin">
+        <div class="container-fluid">
+            <div class="row centered text-center shadow bg-white rounded ">
+                <div class="col-6 col-md-3 bg-white border_1">
+                    <div class="bloc__4 text-center ">
+                        <p class="number"> 48 </p>
+                        <p class="bloc__4__text"><strong>projects</strong> <br> delivered</p>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 bg-white border_1">
 
-
-            <div class="container-fluid  cont_2">
-                <div class="row">
-
-                    <div class=" col-lg-6 content_cen display_bloc_none_2">
-                        <div class="">
-                            <img src="/svg/Group_in_text_SMART(1).svg" class="logo_tel"  alt="">
-                        </div>
-                        <div class=" section__7__text__smart texts">
-                            <p>SMART - an excellent game for training and development your brain skills. Application contains over 28 awesome
-                                games for training IQ and intelligence.</p>
-                        </div>
+                    <div class="bloc__4 text-center">
+                        <p class="number"> 50</p>
+                        <p class="bloc__4__text"><strong>millions </strong> <br> downloads</p>
                     </div>
 
+                </div>
+                <div class="col-6 col-md-3 bg-white border_1">
 
-                    <div class="col-lg-6 black_tel">
-                        <img src="/img/Group 77_united_2(2).png" class="img_black_tel" alt="">
-<!--                        background - Vector 3blue_cloud_in_Smart_pixel3.png-->
-                                       <p class="section__7__text__plus_2">View Case Study
-                                           <img src="/img/plus_logo_Plus.png" alt="" class="plus">
-                                       </p>
+                    <div class="bloc__4 text-center">
+                        <p class="number"> 38 </p>
+                        <p class="bloc__4__text"><strong>happy</strong> <br> clients</p>
                     </div>
 
+                </div>
+                <div class="col-6 col-md-3 bg-white border_1">
 
-                    <div class=" col-lg-6 content_cen  display_bloc_none  padding_top_black_tel">
-                        <div class="">
-                            <img src="/svg/Group_in_text_SMART(1).svg" class="logo_tel"  alt="">
-                        </div>
-                        <div class=" section__7__text__smart texts  left_black_tel">
-                            <p>SMART - an excellent game for training and development your brain skills. Application contains over 28 awesome
-                                games for training IQ and intelligence.</p>
-                        </div>
-
-                        <div class="left_black_tel  bloc__plus">
-                            <p class="section__7__text__plus">View Case Study
-                                <img src="/svg/plus_logo_Plus.svg" alt="" class="plus">
-                            </p>
-                        </div>
+                    <div class="bloc__4 text-center">
+                        <p class="number"> 241 </p>
+                        <p class="bloc__4__text"><strong>daily </strong> <br> users</p>
                     </div>
 
                 </div>
             </div>
+        </div>
+
+    </section>
+
+    <section class="main__section__6  ">
+        <div class="container-fluid ">
+            <p class="main__section__6_text__1 text__animation__2">
+                VISION
+            </p>
+            <p class="main__section__6_text__2 text-center">
+                WE LOVE TAKING PRODUCTS <br> FROM VISION TO REALITY
+            </p>
+            <p class="main__section__6_text__3 text__animation__2 text-right">
+                REALITY
+            </p>
+        </div>
+    </section>
 
 
+    <hr>
 
-            <div class="container-fluid   cont_3">
-                <div class="row">
-                    <div class=" col-lg-6 content_cen padding_top_black__iphone">
 
-                        <div class="">
-                            <img src="/svg/smartwords_in_text_SmartW(1).svg" class="logo_tel"  alt="">
-                        </div>
-                        <div class=" section__7__text__world texts     left_top_black__iphone">
-                            <p>Smart Words – a perfect way to train your brain and vocabulary. At the same time app does not require
-                                a lot of device memory.</p>
-                        </div>
-
-                        <div class=" left_top_black__iphone   bloc__plus">
-                            <p class="section__7__text__plus">View Case Study
-                                <img src="/svg/plus_logo_Plus.svg" alt="" class="plus">
-                            </p>
-                        </div>
-
+    <section class="main__section__7__mobile">
+        <div class="container-fluid   cont_1">
+            <div class="row">
+                <div class=" col-lg-6 content_cen  padding_top_white_tel">
+                    <!--                    пробую всюди з точки md а не xl-->
+                    <div class="">
+                        <img src="/svg/Group_in_textBurn(1).svg" class="logo_tel" alt="">
+                    </div>
+                    <div class=" section__7__text__burn texts left_white_tel">
+                        <p>The BURN – makes it so easy to stay on track with an electronic workout calendar, so you’ll
+                            never skip leg day.</p>
                     </div>
 
-
-                    <div class="col-lg-6  black__iphone">
-                        <img src="/img/Group 78_united_3(2).png"  class="img_black__iphone" alt="">
-
-                                            <p class="section__7__text__plus_2">View Case Study <img src="/img/plus_logo_Plus.png" alt="" class="plus"> </p>
+                    <div class="left_white_tel bloc__plus">
+                        <p class="section__7__text__plus">View Case Study <img src="/svg/plus_logo_Plus.svg" alt=""
+                                                                               class="plus"></p>
                     </div>
+                </div>
+
+                <div class="col-lg-6  white_tel">
+                    <img src="/img/Group 76united_1(1).png" class="img_white_tel" alt="">
+
+                    <p class="section__7__text__plus_2">View Case Study
+                        <img src="/img/plus_logo_Plus.png" alt="" class="plus">
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid  cont_2">
+            <div class="row">
+
+                <div class=" col-lg-6 content_cen display_bloc_none_2">
+                    <div class="">
+                        <img src="/svg/Group_in_text_SMART(1).svg" class="logo_tel" alt="">
+                    </div>
+                    <div class=" section__7__text__smart texts">
+                        <p>SMART - an excellent game for training and development your brain skills. Application
+                            contains over 28 awesome
+                            games for training IQ and intelligence.</p>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6 black_tel">
+                    <img src="/img/Group 77_united_2(2).png" class="img_black_tel" alt="">
+                    <!--                        background - Vector 3blue_cloud_in_Smart_pixel3.png-->
+                    <p class="section__7__text__plus_2">View Case Study
+                        <img src="/img/plus_logo_Plus.png" alt="" class="plus">
+                    </p>
+                </div>
+
+
+                <div class=" col-lg-6 content_cen  display_bloc_none  padding_top_black_tel">
+                    <div class="">
+                        <img src="/svg/Group_in_text_SMART(1).svg" class="logo_tel" alt="">
+                    </div>
+                    <div class=" section__7__text__smart texts  left_black_tel">
+                        <p>SMART - an excellent game for training and development your brain skills. Application
+                            contains over 28 awesome
+                            games for training IQ and intelligence.</p>
+                    </div>
+
+                    <div class="left_black_tel  bloc__plus">
+                        <p class="section__7__text__plus">View Case Study
+                            <img src="/svg/plus_logo_Plus.svg" alt="" class="plus">
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <div class="container-fluid   cont_3">
+            <div class="row">
+                <div class=" col-lg-6 content_cen padding_top_black__iphone">
+
+                    <div class="">
+                        <img src="/svg/smartwords_in_text_SmartW(1).svg" class="logo_tel" alt="">
+                    </div>
+                    <div class=" section__7__text__world texts     left_top_black__iphone">
+                        <p>Smart Words – a perfect way to train your brain and vocabulary. At the same time app does not
+                            require
+                            a lot of device memory.</p>
+                    </div>
+
+                    <div class=" left_top_black__iphone   bloc__plus">
+                        <p class="section__7__text__plus">View Case Study
+                            <img src="/svg/plus_logo_Plus.svg" alt="" class="plus">
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-6  black__iphone">
+                    <img src="/img/Group 78_united_3(2).png" class="img_black__iphone" alt="">
+                    <p class="section__7__text__plus_2">View Case Study <img src="/img/plus_logo_Plus.png" alt=""
+                                                                             class="plus"></p>
                 </div>
             </div>
 
-        </section>
+
+            <div class=" bottom display_bloc_none   content_cen_2   bloc__plus">
+                <p class="section__7__text__plus">View Case Study
+                    <img src="/svg/plus_logo_Plus.svg" alt="" class="plus">
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="section__8__footer">
+        <div class="div_1">
+            <div class="footer__text">
+                <h3>
+                    HOW IT WORKS?
+                </h3>
+                <p>
+                    Our process focuses on companies that prioritize overcoming the present by challenging the future,
+                    creating exceptional digital experiences focused on the user and the value they deliver to the
+                    business.
+                </p>
+            </div>
+
+
+            <div class="elements  element_1">
+                <p class="numbers num_1">01</p>
+                <p class="padding">DIGITAL DISCOVERY</p>
+
+                <a  class="c1 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="We develop your high-quality digital product much faster than thought
+                possible with high performance teams (squads) made up of specialists in a variety of disciplines who are allocated according to each particular challenge. Focusing on
+                 results and verifiable hypotheses, from the very first moment we validate the solutions in the field.">
+                    <img src="../svg/plus.svg" alt="">
+                </a>
+            </div>
+            <div class="elements   element_2">
+                <p class="numbers  num_2">02</p>
+                <P class="padding">BUILD</P>
+                <a  class="c1 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="We develop your high-quality digital product much faster than thought
+                 possible with high performance teams (squads) made up of specialists in a variety of disciplines who are allocated according to each particular challenge. Focusing on
+                 results and verifiable hypotheses, from the very first moment we validate the solutions in the field.">
+                    <img src="../svg/plus.svg" alt="">
+                </a>
+            </div>
+            <div class="elements   element_3">
+                <p class="numbers  num_3">03</p>
+                <P class="padding">LAUNCH</P>
+<!--                <a  class="c1 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="We develop your high-quality digital product much faster than thought-->
+<!--                 possible with high performance teams (squads) made up of specialists in a variety of disciplines who are allocated according to each particular challenge. Focusing on-->
+<!--                 results and verifiable hypotheses, from the very first moment we validate the solutions in the field.">-->
+<!--                    <img src="../svg/plus.svg" alt="">-->
+<!--                </a>           -->
+
+                    <a class="c1" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><img src="../svg/plus.svg" alt=""></a>
+
+                <div class="row">
+                    <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+                            <div class="card card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+<!--            <div class="back">-->
+
+<!--            </div>-->
+            <!--                    <div class="img_+_numbers">-->
+            <!--                        -->
+            <!--                        -->
+            <!--                        -->
+            <!--                        <img src="/img/Vector 6BIG.png" style="width: 100%"  alt="">-->
+            <!--                    </div>-->
+        </div>
 
 
 
 
-        <section class="main__section__8">
+<!--        <div style="position: relative">-->
+<!--            <div style="position: absolute; color: red; font-size: 100px; top: 50px; left: -20px">Textsdf sdf sdf sdfsdf</div>-->
+<!--            <div class="row" style="min-height: 400px; background: black">-->
 
-        </section>
+<!--                <div class="col-md-6">-->
+<!--                    <h3 style="color: white">Share your idea</h3>-->
+<!--                    <form action="">-->
+<!--                        <div class="row">-->
+<!--                            <div class="col-md-6">-->
+<!--                                <input type="text" class="form-control">-->
+<!--                                <br>-->
+<!--                            </div>-->
+<!--                            <div class="col-md-6">-->
+<!--                                <input type="text" class="form-control">-->
+<!--                                <br>-->
+<!--                            </div>-->
+<!--                            <div class=" col-sm-12">-->
+<!--                                <input type="text" class="form-control">-->
+<!--                                <br>-->
+<!--                            </div>-->
+<!--                        </div>-->
+<!--                        <div>-->
+<!--                            <button class="btn btn-success">Send</button>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                </div>-->
+
+<!--                <div class="col-md-6 text-center">-->
+<!--                    <ul style="list-style:none; color: white">-->
+<!--                        <li>asdasdasd</li>-->
+<!--                        <li>ghdsdfsd</li>-->
+<!--                        <li>asdgsdfsd</li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
 
 
-    </main>
 
-    <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    </body>
+        <div class="div_2">
+            <div class="div_2_background">Get in <br> touch</div>
+            <div class="row">
+                <div class="col-md-7">
+                    <h1 class="div_2_tittle ">Share your idea</h1>
+                    <form action="" class="form_message">
+                        <div class="row">
+
+                            <div class="col-md-6 col_name">
+                                <input type="text" class="field name" placeholder="Your Name...">
+                            </div>
+
+                            <div class="col-md-6 input_email">
+                                <input type="text" class="field email" placeholder="Your E-Mail...">
+                                <img src="../svg/alert-circle.svg" class="img_email_circle" alt="">
+                            </div>
+
+                            <div class=" col-sm-12">
+                                <input type="text" class="field message" placeholder="Message...">
+                            </div>
+                        </div>
+                        <div>
+                            <button type="submit" class="field button" >Send Message</button>
+                        </div>
+                    </form>
+                </div>
+
+                <div class="col-md-5 text-right">
+<!--                    <ul style="list-style:none; color: white">-->
+<!--                        <li>asdasdasd</li>-->
+<!--                        <li>ghdsdfsd</li>-->
+<!--                        <li>asdgsdfsd</li>-->
+<!--                    </ul>-->
+                    <ul class="list-unstyled text-center">
+                        <li><img src="../svg/Group_logo_Facebook.svg" alt=""></li>
+                        <li><img src="../svg/Group_logo_Instagram.svg" alt=""></li>
+                        <li><img src="../svg/Group_logo_Ball.svg" alt=""></li>
+                        <li><img src="../svg/Group_logo_Be.svg" alt=""></li>
+                        <li><img src="../svg/medium-size_logo_M.svg" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
 
         <footer>
-
+            <div >
+                <ul class="footer">
+                    <li>provacy policy</li>
+                    <li>terms and conditions</li>
+                </ul>
+            </div>
         </footer>
 
-    </html>
+
+<!--        <div class="div_2">-->
+<!--            <div class="div_2_back">-->
+<!--                Share Your Idea-->
+<!--            </div>-->
+<!--            <div class="row row_1">-->
+<!--                <div  class="col-sm-12 col-md-7">-->
+<!--&lt;!&ndash;                    <div style="position: relative;left: 15%">&ndash;&gt;-->
+<!--&lt;!&ndash;                        <div class="row">&ndash;&gt;-->
+<!--&lt;!&ndash;                            <p class="div_2_tittle">Share Your Idea</p>&ndash;&gt;-->
+<!--&lt;!&ndash;                        </div>&ndash;&gt;-->
+
+<!--                        <form action="" class="form_message">-->
+<!--                            <fieldset>-->
+<!--&lt;!&ndash;                                <p>&ndash;&gt;-->
+<!--                                    <div class="row">-->
+<!--                                        <div class="col-sm-12 col-md-6">-->
+<!--                                            <input type="text" class="field name" placeholder="Your Name...">-->
+<!--                                        </div>-->
+<!--                                       <div class="col-sm-12 col-md-6">-->
+<!--                                           <input type="text" class="field email" placeholder="Your E-Mail...">-->
+<!--                                           <img src="../svg/alert-circle.svg" class="img_email_circle" alt="">-->
+<!--                                       </div>-->
+<!--                                    </div>-->
+<!--&lt;!&ndash;                                     <br>&ndash;&gt;-->
+<!--                                   <div class="row">-->
+<!--                                       <input type="text" class="field message" placeholder="Message...">-->
+<!--                                   </div>-->
+<!--                                    <div class="row">-->
+<!--                                        <button type="submit" class="field button" >Send Message</button>-->
+<!--                                    </div>-->
+<!--&lt;!&ndash;                                </p>&ndash;&gt;-->
+<!--                            </fieldset>-->
+<!--                        </form>-->
+<!--&lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                </div>-->
+
+<!--                <div class="col-sm-12 col-md-5">-->
+<!--                    <ul class="list-unstyled">-->
+<!--                        <li><img src="../svg/Group_logo_Facebook.svg" alt=""></li>-->
+<!--                        <li><img src="../svg/Group_logo_Instagram.svg" alt=""></li>-->
+<!--                        <li><img src="../svg/Group_logo_Ball.svg" alt=""></li>-->
+<!--                        <li><img src="../svg/Group_logo_Be.svg" alt=""></li>-->
+<!--                        <li><img src="../svg/medium-size_logo_M.svg" alt=""></li>-->
+<!--                    </ul>-->
+<!--                </div>-->
+<!--            </div>-->
+
+
+
+<!--            <div class="bloc_text_background">-->
+<!--                <p class="div_2_text_background">-->
+<!--                    Get in <br> touch-->
+<!--                </p>-->
+<!--            </div>-->
+
+
+
+<!--            <div class="row" style="text-align: right; margin: 0">-->
+<!--                <p style="max-width: 20%; padding-right: 20px">provacy policy</p>-->
+<!--                <p style="max-width: 20%">terms and conditions</p>-->
+<!--            </div>-->
+        </div>
+    </section>
+
+
+</main>
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
+
+<script>
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+    })
+</script>
+
+</body>
+
+<footer>
+
+</footer>
+
+</html>
