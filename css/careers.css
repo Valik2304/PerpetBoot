@@ -1,0 +1,11 @@
+/*div.container{*/
+/*    background-color: #333333;*/
+/*    width: 800px;*/
+/*    height: 800px;*/
+/*}*/
+
+@media (min-width: 1920px) {
+    .container-fluid{
+        max-width: 1920px;
+    }
+}

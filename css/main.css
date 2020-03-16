@@ -1,16 +1,25 @@
     .header{
         background: white;
-        color: #333333;
+        padding: 20px 10% 10px 10%;
     }
-    .navbar-brand{
-        padding-left: 100px;
+
+    .navbar-light .navbar-toggler{
+        color: rgba(0,0,0,.5);
+        border-color: transparent;
     }
-    .ml-auto{
-        padding-right: 100px;
-        text-align: left;
+
+    .navbar-light .navbar-toggler-icon {
+        background-image: url("../svg/burger_Burger.svg");
+    }
+
+    nav div{
+        /*position: absolute;*/
+        /*left: 60%;*/
+        text-align: right;
+        /*padding-left: 100px;*/
     }
     .nav-item{
-        margin-right: 50px;
+        margin-right: 100px;
     }
     .nav-item:last-child{
         margin-right: 10px;
@@ -18,11 +27,28 @@
     .nav-link{
         font-family: Avenir-Medium;
         font-size: 18px;
-        color: #333333;
+        color: #333333 !important;
     }
-    .home{
-        font-family: Avenir-Black;
+    .nav-link:hover{
+        color: rgba(0,0,0,.5)!important;
+        /*color: #333333;*/
     }
+
+       .nav-link.home{
+            font-family: Avenir-Black;
+       }
+        .nav-link.contact{
+            color: #3095F2 !important;
+            border: 2px solid #3095F2;
+            box-sizing: border-box;
+            border-radius: 28px;
+            /*padding: 15px 25px 15px 25px;*/
+            padding-left: 15px !important;
+            padding-right: 15px !important;
+       }
+        .nav-link.contact:hover{
+            background: rgba(50, 155, 155, 0.15);
+       }
 
     /*Header end*/
 
@@ -142,6 +168,10 @@
 
 
     /*Section 7 start*/
+    .main__section__7__mobile a{
+        color: #333333;
+        text-decoration: none;
+    }
     .main__section__7__mobile .texts{
         font-family: Avenir-Heavy;
         font-size: 32px;
@@ -230,6 +260,25 @@
         padding-bottom: 5%;
     }
 
+
+
+
+
+    .main__section__7__mobile .logo_tel{
+        max-width: 30vw;
+    }
+
+    .col-lg-6.content_cen.padding_top_black__iphone{
+        background: url("../img/Vector 3_New_bg.png") no-repeat;
+        background-size: 70%;
+        width: 100%;
+        background-position: 0 50%;
+    }
+
+    .main__section__7__mobile .logo_tel.last{/*змінив розмір останнього логотипа через відсутність фонового розміру самого зображення!*/
+        max-width: 20vw !important;
+        padding-bottom: 5%;
+    }
     /*Section 7 end*/
 
 
@@ -353,12 +402,12 @@
                     min-height: 600px;
                 }
                 .div_2 .div_2_background{
-                    font-family: ProductSans-Bold;
+                    font-family: ProductSans-Regular;
                     font-size: 280px;
                     line-height: 280px;
                     color: #2D2D2D;
                     position: absolute;
-                    left: -50px;
+                    left: -35px;
                 }
                 .div_2_tittle{
                     font-family: ProductSans-Bold;
@@ -583,9 +632,10 @@
         .main__section__7__mobile .content_cen{
             text-align: center;
         }
-        .main__section__7__mobile .logo_tel{
-           max-width: 30vw;
-       }
+
+        .col-lg-6.content_cen.padding_top_black__iphone{
+            background: none;
+        }
         .main__section__7__mobile .texts{
             max-width: 85%;
             margin: 0 auto;
@@ -702,8 +752,9 @@
         .main__section__7__mobile .content_cen{
             text-align: center;
         }
-        .main__section__7__mobile .logo_tel{
-            max-width: 30vw;
+
+        .col-lg-6.content_cen.padding_top_black__iphone{
+            background: none;
         }
         .main__section__7__mobile .texts{
             max-width: 85%;
@@ -816,8 +867,10 @@
         .main__section__7__mobile .content_cen{
             text-align: center;
         }
-        .main__section__7__mobile .logo_tel{
-            max-width: 30vw;
+
+        .col-lg-6.content_cen.padding_top_black__iphone{
+            background: none;
+
         }
         .main__section__7__mobile .texts{
             max-width: 85%;
@@ -926,8 +979,10 @@
         .main__section__7__mobile .content_cen{
             text-align: center;
         }
-        .main__section__7__mobile .logo_tel{
-            max-width: 30vw;
+
+        .col-lg-6.content_cen.padding_top_black__iphone{
+            background: none;
+
         }
         .main__section__7__mobile .texts{
             max-width: 85%;
@@ -1043,9 +1098,14 @@
         .main__section__7__mobile .content_cen{
             text-align: center;
         }
-        .main__section__7__mobile .logo_tel{
-            max-width: 30vw;
+
+
+
+        .col-lg-6.content_cen.padding_top_black__iphone{
+            background: none;
+
         }
+
         .main__section__7__mobile .texts{
             max-width: 85%;
             margin: 0 auto;
@@ -1101,6 +1161,7 @@
         }
 
 
+
                                                                     .section__8__footer .div_1{
                                                                         background-size: 100% 450px;
                                                                         /*min-height: 770px;!*більша висота блоку (з більшим шрифтом тексту)*!*/
@@ -1145,7 +1206,28 @@
     /*        line-height: 38px;*/
     /*    }*/
     /*}*/
+    
+    
+    @media (max-width: 994px) {
+        .nav-item {
+            margin-right: 10px;
+        }
+        .nav-link.contact {
+            display: inline-flex;
+        }
+        .navbar-toggler{
+            border: none;
+        }
+    }
+
     @media (min-width: 992px) and (max-width: 1200px){/*ТУТ ДОДАВ УМОВУ НА МАКС 1200PX*/
+
+
+        .nav-item {
+            margin-right: 50px;
+        }
+
+
 
         .bloc__margin{
             margin-top: -76px;
@@ -1225,9 +1307,8 @@
             display: none;
         }
 
-        .main__section__7__mobile .logo_tel{
-            max-width: 30vw;
-        }
+
+
         .main__section__7__mobile .texts{
             font-size: 26px;
             line-height: 38px;
@@ -1272,7 +1353,26 @@
     }
 
 
+
+                                                                                         /*@media (min-width: 992px)and (max-width: 1300px){*/
+                                                                                         /*    .nav-item {*/
+                                                                                         /*        margin-right: 50px;*/
+                                                                                         /*    }*/
+                                                                                         /*}*/
+
+
+
+
+
             @media (min-width: 1200px)and (max-width: 1620px){
+
+
+                .nav-item {
+                    margin-right: 70px;
+                }
+
+
+
                 .main__section__7__mobile .texts{
                     font-size: 28px;
                     line-height: 40px;
@@ -1349,6 +1449,16 @@
                                                         font-size: 230px;
                                                     }
             }
+
+                                                                                                                        /*@media (min-width: 1300px)and (max-width: 1620px){*/
+                                                                                                                        /*    .nav-item {*/
+                                                                                                                        /*        margin-right: 80px;*/
+                                                                                                                        /*    }*/
+                                                                                                                        /*}*/
+
+
+
+
 
     @media (min-width: 1620px) {
         .main__section_text{
@@ -1432,18 +1542,13 @@
 
 
 
-    /*@media (min-width: 375px) and (max-width: 910px){*/
-    /*    .main__section{*/
-    /*        padding-bottom: 70px;*/
+
+
+    /*@media (min-width: 770px) and (max-width: 1020px)  {*/
+    /*    .nav-item{*/
+    /*        !*margin-right: 10px;*!*/
     /*    }*/
     /*}*/
-
-    @media (min-width: 770px) and (max-width: 1020px)  {
-        .nav-item{
-            margin-right: 10px;
-        }
-
-    }
 
 
     @media (min-width: 375px) and (max-width: 430px){
