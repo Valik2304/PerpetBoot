@@ -1,3 +1,7 @@
+    .container-fluid{padding: 0}
+
+
+
     .header{
         background: white;
         padding: 20px 10% 10px 10%;
@@ -19,7 +23,7 @@
         /*padding-left: 100px;*/
     }
     .nav-item{
-        margin-right: 100px;
+        margin-right: 50px;
     }
     .nav-item:last-child{
         margin-right: 10px;
@@ -56,14 +60,17 @@
 
 
 
+
+
+
     /*Section__1 start*/
     .main__section{
         background: url("../img/Mask Group_Background_Header.png") no-repeat;
         background-size: cover;
-        padding-right: 8%;
-        padding-left: 8%;
-        /*height: 844px;*/
-        padding-bottom: 250px;
+        background-position-x: right;
+        padding-right: 10%;/*8%*/
+        padding-left: 10%;/*8%*/
+        padding-bottom: 280px;
         width: 100%;
     }
     .main__section_title{
@@ -97,15 +104,16 @@
             font-size: 21.2vw;
             line-height: 20vw;
             /*line-height: 70px;*/
-            padding-left: 6%;
+            /*padding-left: 6%;*/
         }
         .main__section_text{
+            max-width: 100%;
             font-size: 5vw;
             line-height: 27px;
             /*line-height: 5.5vw;*/
             padding-top: 60px;
-            padding-left: 6%;
-            padding-right: 6%;
+            /*padding-left: 6%;*/
+            /*padding-right: 6%;*/
         }
 
     }
@@ -117,116 +125,184 @@
         }
         .main__section_title{
             font-family: ProductSans-Bold;
-            font-size: 77px;
+            font-size: 85px;
             line-height: 70px;
             /*padding-left: 30px;*/
-            padding-left: 6%;
+            /*padding-left: 6%;*/
         }
 
         .main__section_text{
+            max-width: 100%;
             padding-top: 65px;
-            padding-left: 6%;
-            padding-right: 6%;
-            font-size: 18px;
+            /*padding-left: 6%;*/
+            /*padding-right: 6%;*/
+            font-size: 19px;
             line-height: 28px;
         }
 
     }
 
+
     @media (min-width: 375px) and (max-width: 576px) {
+        .main__section{
+            background: url("../svg/Mask Group_New_bg.svg") no-repeat;
+            background-size: cover;
+            background-position-x: right;
+        }
         .main__section{
             padding-bottom: 40px;
         }
         .main__section_text{
-            /*max-width: 430px;*/
-            max-width: 500px;
+            max-width: 100%;
             font-size: 20px;
             line-height: 30px;
-            padding-left: 4.2%;
-            padding-right: 4.2%;
+            /*padding-left: 4.2%;*/
+            /*padding-right: 4.2%;*/
             padding-top: 75px;
         }
+        .main__section_title{
+            font-size: 90px;
+            line-height: 80px;
+        }
+    }
 
 
-           }
+    @media (min-width: 576px) and (max-width: 620px) {
+        .main__section{
+            background: url("../svg/Mask Group_New_bg.svg") no-repeat;
+            background-size: cover;
+            background-position-x: right;
+        }
+        .main__section{
+            padding-bottom: 40px;
+        }
+        .col-xs-12.col-sm-5{
+            padding: 0;
+        }
 
-    @media (min-width: 576px) and (max-width: 768px){/**/
+        .main__section_text{
+            font-size: 17px;
+            max-width: 100%;
+            line-height: 26px;
+            padding-top: 115px;
+            padding-left: 10px;
+        }
+        .main__section_title{
+            font-size: 85px;
+            line-height: 80px;
+        }
+ }
+
+
+    @media (min-width: 620px) and (max-width: 768px){/**/
+        .main__section{
+            background: url("../svg/Mask Group_New_bg.svg") no-repeat;
+            background-size: cover;
+            background-position-x: right;
+
+        }
+        .col-xs-12.col-sm-5{
+            padding: 0;
+        }
+        .col-xs-12.col-sm-7{
+            padding-left: 0;
+        }
         .main__section{
             padding-bottom: 90px;
         }
         .main__section_text{
-                font-size: 22px;
-                line-height: 30px;
-                /*padding-left: 20px;*/
-                padding-top: 125px;
+                font-size: 17px;
+                max-width: 100%;
+                line-height: 26px;
+                padding-top: 115px;
+                  padding-left: 10px;
             }
+        .main__section_title{
+            font-size: 100px;
+            line-height: 90px;
+        }
     }
 
+
+    @media (min-width: 768px) and (max-width: 992px){/*max-width: font-size was 910px*/
+
+        .main__section_text{
+            font-size: 18px;
+            max-width: 90%;
+            padding-top: 127px;
+            padding-left: 10px;
+            line-height: 28px;
+        }
+        .main__section_title{
+            font-size: 115px;
+            line-height: 110px;
+        }
+    }
 
     @media (min-width: 992px) and (max-width: 1200px){/*ТУТ ДОДАВ УМОВУ НА МАКС 1200PX*/
-
+        .main__section_text{
+            font-size: 20px;
+            max-width: 90%;
+            padding-top: 140px;
+            line-height: 30px;
+        }
+        .main__section_title{
+            font-size: 145px;
+            line-height: 130px;
+        }
     }
 
 
 
 
-            @media (min-width: 1200px)and (max-width: 1620px){
+    @media (min-width: 1200px)and (max-width: 1400px){
+                    .main__section_text{
+                        font-size: 21px;
+                        max-width: 90%;
+                        padding-top: 150px;
+                    }
+                    .main__section_title{
+                        font-size: 175px;
+                        line-height: 150px;
+                    }
+    }
+@media (min-width: 1400px)and (max-width: 1620px){
                     .main__section_text{
                         font-size: 23px;
+                        padding-top: 157px;
                     }
-                .main__section_title{
-                    font-size: 200px;
-                    /*line-height: 80px;*/
-                }
-            }
+                    .main__section_title{
+                        font-size: 200px;
+                        line-height: 170px;
+                    }
+    }
 
 
 
 
 
-    /*@media (min-width: 1620px) {*/
-    /*    .main__section_text{*/
-    /*        font-size: 26px;*/
+
+    /*@media (min-width: 375px) and (max-width: 430px){*/
+    /*    .main__section_title{*/
+    /*        font-size: 85px;*/
+    /*        line-height: 80px;*/
     /*    }*/
+    /*}*/
 
+    /*@media (min-width: 430px) and (max-width: 768px){*/
+    /*    .main__section_title{*/
+    /*        font-size: 100px;*/
+    /*        line-height: 90px;*/
+
+
+    /*    }*/
     /*}*/
 
 
 
 
-    @media (min-width: 375px) and (max-width: 430px){
-        .main__section_title{
-            font-size: 85px;
-            line-height: 80px;
-        }
-    }
-
-    @media (min-width: 430px) and (max-width: 768px){
-        .main__section_title{
-            font-size: 100px;
-            line-height: 90px;
 
 
-        }
-    }
-
-
-
-
-    @media (min-width: 768px) and (max-width: 930px){/*max-width: font-size was 910px*/
-        .main__section_title{
-            font-size: 140px;
-            line-height: 130px;
-        }
-    }
-
-    @media (min-width: 930px)/*min-width: font-size was 910px*/ and (max-width: 1140px){
-        .main__section_title{
-            font-size: 170px;
-            line-height: 160px;
-
-        }
-    }
 
 
 
