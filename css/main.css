@@ -53,13 +53,16 @@
     /*Header end*/
 
     /*Section__1 start*/
+    main .padding_zero.container-fluid{
+        padding: 0;
+    }
     .main__section{
-        background: url("../img/Mask Group_Background_Header.png") no-repeat;
+        background: url("../svg/Mask Group_New_Background_Header.svg") no-repeat;
         background-size: cover;
-        padding-right: 5px;
-        padding-left: 5px;
-        /*height: 844px;*/
-        padding-bottom: 250px;
+        background-position-x: right;
+        padding-right: 10%;/*8%*/
+        padding-left: 10%;/*8%*/
+        padding-bottom: 280px;
         width: 100%;
     }
     .main__section_title{
@@ -73,10 +76,9 @@
         /*line-height: 0.8;*/
     }
     .main__section_text{
-        /*max-width: 380px;*/
-        max-width: 70%;
+        max-width: 80%;
         padding-top: 165px;
-        font-size: 24px;
+        font-size: 26px;
         line-height: 34px;
         /*line-height: 140%;*/
     }
@@ -268,7 +270,7 @@
         max-width: 30vw;
     }
 
-    .col-lg-6.content_cen.padding_top_black__iphone{
+    .col-md-6.content_cen.padding_top_black__iphone{
         background: url("../img/Vector 3_New_bg.png") no-repeat;
         background-size: 70%;
         width: 100%;
@@ -295,7 +297,9 @@
                     position: relative;
                     z-index: 500;
                 }
-                .back{}
+    /*.section__8__footer .div_1 .backg_img{*/
+    /*    width: 100%;*/
+    /*}*/
 
                     .section__8__footer .div_1 .footer__text{
                         /*max-width: 35%;*/
@@ -567,6 +571,17 @@
 
 
     @media (max-width: 360px) {
+
+        .navbar-light .navbar-brand img{
+            /*width: 30vw;*/
+            height: 10vw;
+        }
+        .navbar-toggler .navbar-toggler-icon{
+            /*height: 10vw;*/
+            width: 8vw;
+            /*background-size: 50%;*/
+        }
+
         .bloc__margin{
             background-color: white;
             margin-top: -105px;
@@ -587,15 +602,16 @@
             font-size: 21.2vw;
             line-height: 20vw;
             /*line-height: 70px;*/
-            padding-left: 6%;
+            /*padding-left: 6%;*/
         }
         .main__section_text{
+            max-width: 100%;
             font-size: 5vw;
             line-height: 27px;
             /*line-height: 5.5vw;*/
             padding-top: 60px;
-            padding-left: 6%;
-            padding-right: 6%;
+            /*padding-left: 6%;*/
+            /*padding-right: 6%;*/
         }
         .text__animation{
             font-size: 16.5vw;
@@ -662,7 +678,7 @@
         }
         .main__section__7__mobile .white_tel .img_white_tel{
             width: 100%;
-            max-width: 92%;
+            max-width: 85%;
         }
 
         .main__section__7__mobile .black_tel{
@@ -673,7 +689,7 @@
         }
         .main__section__7__mobile .black_tel .img_black_tel{
             width: 100%;
-            max-width: 92%;
+            max-width: 85%;
         }
 
         .main__section__7__mobile .black__iphone{
@@ -684,7 +700,34 @@
         }
         .main__section__7__mobile .black__iphone .img_black__iphone{
             width: 100%;
-            max-width: 92%;
+            max-width: 85%;
+        }
+        .col-md-6.content_cen.padding_top_black__iphone {
+            background: none;
+        }
+
+
+
+
+        .section__8__footer .div_1 .footer__text h3{
+            font-size: 7vw;
+        }
+        .section__8__footer .div_1 .footer__text p{
+            font-size: 4.47vw;
+        }
+
+        .section__8__footer .div_1 .sdfsdf{
+            max-height: 600px;
+            height: 330px;
+            text-align: center;
+            background: url("../svg/Vector 8_new_cloud.svg") no-repeat;
+            background-size: auto 90%;
+        }
+        .section__8__footer .div_1 .footer__text{
+            max-width: 100%;
+            /*padding-left: 27%;*/
+            /*text-align: center;*/
+            padding: 12% 20% 0 20%;
         }
 
     }
@@ -696,17 +739,18 @@
         }
         .main__section_title{
             font-family: ProductSans-Bold;
-            font-size: 77px;
+            font-size: 85px;
             line-height: 70px;
             /*padding-left: 30px;*/
-            padding-left: 6%;
+            /*padding-left: 6%;*/
         }
 
         .main__section_text{
+            max-width: 100%;
             padding-top: 65px;
-            padding-left: 6%;
-            padding-right: 6%;
-            font-size: 18px;
+            /*padding-left: 6%;*/
+            /*padding-right: 6%;*/
+            font-size: 19px;
             line-height: 28px;
         }
 
@@ -780,7 +824,7 @@
         }
         .main__section__7__mobile .white_tel .img_white_tel{
             width: 100%;
-            max-width: 92%;
+            max-width: 82%;
         }
 
         .main__section__7__mobile .black_tel{
@@ -791,7 +835,7 @@
         }
         .main__section__7__mobile .black_tel .img_black_tel{
             width: 100%;
-            max-width: 92%;
+            max-width: 82%;
         }
 
         .main__section__7__mobile .black__iphone{
@@ -802,22 +846,56 @@
         }
         .main__section__7__mobile .black__iphone .img_black__iphone{
             width: 100%;
-            max-width: 92%;
+            max-width: 82%;
+        }
+        .col-md-6.content_cen.padding_top_black__iphone {
+            background: none;
+        }
+
+
+
+        .section__8__footer .div_1 .footer__text h3{
+            font-size: 25px;
+        }
+        .section__8__footer .div_1 .footer__text p{
+            font-size: 16px;
+        }
+
+        .section__8__footer .div_1 .sdfsdf{
+            max-height: 600px;
+            height: 330px;
+            text-align: center;
+            background: url("../svg/Vector 8_new_cloud.svg") no-repeat;
+            background-size: auto 90%;
+        }
+        .section__8__footer .div_1 .footer__text{
+            max-width: 100%;
+            /*padding-left: 27%;*/
+            /*text-align: center;*/
+            padding: 12% 20% 0 20%;
         }
     }
 
     @media (min-width: 375px) and (max-width: 576px) {
         .main__section{
+            background: url("../svg/Mask Group_New_bg.svg") no-repeat;
+            background-size: cover;
+            background-position-x: right;
+        }
+        .main__section{
             padding-bottom: 40px;
         }
         .main__section_text{
-            /*max-width: 430px;*/
-            max-width: 500px;
+            max-width: 100%;
             font-size: 20px;
             line-height: 30px;
-            padding-left: 4.2%;
-            padding-right: 4.2%;
+            /*padding-left: 4.2%;*/
+            /*padding-right: 4.2%;*/
             padding-top: 75px;
+        }
+        .main__section_title{
+            font-size: 90px;
+            line-height: 80px;
         }
 
 
@@ -896,7 +974,7 @@
         }
         .main__section__7__mobile .white_tel .img_white_tel{
             width: 100%;
-            max-width: 91%;
+            max-width: 80%;
         }
 
         .main__section__7__mobile .black_tel{
@@ -907,7 +985,7 @@
         }
         .main__section__7__mobile .black_tel .img_black_tel{
             width: 100%;
-            max-width: 91%;
+            max-width: 80%;
         }
 
         .main__section__7__mobile .black__iphone{
@@ -918,21 +996,125 @@
         }
         .main__section__7__mobile .black__iphone .img_black__iphone{
             width: 100%;
-            max-width: 91%;
+            max-width: 80%;
+        }
+
+        .col-md-6.content_cen.padding_top_black__iphone {
+            background: none;
+        }
+
+
+
+
+        .section__8__footer .div_1 .footer__text h3{
+            font-size: 25px;
+        }
+        .section__8__footer .div_1 .footer__text p{
+            font-size: 16px;
+        }
+
+        .section__8__footer .div_1 .sdfsdf{
+            max-height: 600px;
+            height: 350px;
+            text-align: center;
+            background: url("../svg/Vector 8_new_cloud.svg") no-repeat;
+            background-size: auto 90%;
+        }
+        .section__8__footer .div_1 .footer__text{
+            max-width: 100%;
+            /*padding-left: 27%;*/
+            /*text-align: center;*/
+            padding: 12% 22% 0 22%;
         }
 
     }
 
-    @media (min-width: 576px) and (max-width: 768px){/**/
+    @media (min-width: 576px) and (max-width: 620px) {
+        .main__section{
+            background: url("../svg/Mask Group_New_bg.svg") no-repeat;
+            background-size: cover;
+            background-position-x: right;
+        }
+        .main__section{
+            padding-bottom: 40px;
+        }
+        .col-xs-12.col-sm-5{
+            padding: 0;
+        }
+
+        .main__section_text{
+            font-size: 17px;
+            max-width: 100%;
+            line-height: 26px;
+            padding-top: 115px;
+            padding-left: 10px;
+        }
+        .main__section_title{
+            font-size: 85px;
+            line-height: 80px;
+        }
+                .section__8__footer .div_1 .sdfsdf{
+                    max-height: 600px;
+                    height: 500px;
+                    text-align: center;
+                    background: url("../svg/Vector 8_new_cloud.svg") no-repeat;
+                    background-size: auto 80%;
+                }
+                .section__8__footer .div_1 .footer__text{
+                    max-width: 100%;
+                    /*padding-left: 27%;*/
+                    /*text-align: center;*/
+                    padding: 12% 25% 0 25%;
+                }
+    }
+
+    @media (min-width: 620px) and (max-width: 768px){/**/
+        .main__section{
+            background: url("../svg/Mask Group_New_bg.svg") no-repeat;
+            background-size: cover;
+            background-position-x: right;
+            padding-right: 10%;
+            padding-left: 10%;
+
+        }
+        .col-xs-12.col-sm-5{
+            padding: 0;
+        }
+        .col-xs-12.col-sm-7{
+            padding-left: 0;
+        }
         .main__section{
             padding-bottom: 90px;
         }
         .main__section_text{
-                font-size: 22px;
-                line-height: 30px;
-                /*padding-left: 20px;*/
-                padding-top: 125px;
-            }
+            font-size: 17px;
+            max-width: 100%;
+            line-height: 26px;
+            padding-top: 115px;
+            padding-left: 10px;
+        }
+        .main__section_title{
+            font-size: 100px;
+            line-height: 90px;
+        }
+
+        .section__8__footer .div_1 .sdfsdf{
+            max-height: 600px;
+            height: 460px;
+            text-align: center;
+            background: url("../svg/Vector 8_new_cloud.svg") no-repeat;
+            background-size: auto 100%;
+        }
+        .section__8__footer .div_1 .footer__text{
+            max-width: 100%;
+            /*padding-left: 27%;*/
+            /*text-align: center;*/
+            padding: 12% 25% 0 25%;
+        }
+    }
+
+    @media (min-width: 576px) and (max-width: 768px){/**/
+
         .text__animation{
             font-size: 140px;/*+37,25*/
         }
@@ -1008,7 +1190,7 @@
         }
         .main__section__7__mobile .white_tel .img_white_tel{
             width: 100%;
-            max-width: 90%;
+            max-width: 80%;
         }
 
         .main__section__7__mobile .black_tel{
@@ -1019,7 +1201,7 @@
         }
         .main__section__7__mobile .black_tel .img_black_tel{
             width: 100%;
-            max-width: 90%;
+            max-width: 80%;
         }
 
         .main__section__7__mobile .black__iphone{
@@ -1030,13 +1212,18 @@
         }
         .main__section__7__mobile .black__iphone .img_black__iphone{
             width: 100%;
-            max-width: 90%;
+            max-width: 80%;
+        }
+
+        .col-md-6.content_cen.padding_top_black__iphone {
+            background: none;
         }
 
                                                                     .section__8__footer .div_1{
                                                                         background-size: 100% 400px;
                                                                         min-height: 770px;/*більша висота блоку (з більшим шрифтом тексту)*/
                                                                     }
+
                                                                     .section__8__footer .div_1 .footer__text h3{
                                                                         font-size: 26px;
                                                                     }
@@ -1064,6 +1251,19 @@
     }
 
     @media (min-width: 768px) and (max-width: 992px){
+
+        .main__section_text{
+            font-size: 18px;
+            max-width: 90%;
+            padding-top: 127px;
+            padding-left: 10px;
+            line-height: 28px;
+        }
+        .main__section_title{
+            font-size: 115px;
+            line-height: 110px;
+        }
+
         .bloc__margin{
             margin-top: -84px;
             padding-bottom: 70px;
@@ -1095,10 +1295,18 @@
 
 
 
-        .main__section__7__mobile .content_cen{
+        /*.main__section__7__mobile .content_cen{*/
+        /*    text-align: center;*/
+        /*}*/
+        .main__section__7__mobile .content_cen_2 {
             text-align: center;
         }
 
+
+        .main__section__7__mobile .plus {
+            max-width: 22px;
+
+        }
 
 
         .col-lg-6.content_cen.padding_top_black__iphone{
@@ -1107,9 +1315,9 @@
         }
 
         .main__section__7__mobile .texts{
-            max-width: 85%;
+            /*max-width: 85%;*/
             margin: 0 auto;
-            font-size: 23px;
+            font-size: 21px;
             line-height: 32px;
         }
         /*.main__section__7__mobile .section__7__text__plus_2{*/
@@ -1117,14 +1325,60 @@
         /*    line-height: 28px;*/
         /*}*/
 
-        .main__section__7__mobile .section__7__text__plus{
-            display: none;
+        /*.main__section__7__mobile .section__7__text__plus{*/
+        /*    display: none;*/
+        /*}*/
+        /*.main__section__7__mobile .section__7__text__plus_2{*/
+        /*    text-align: center;*/
+        /*    font-family: Avenir-Medium;*/
+        /*    font-size: 18px;*/
+        /*    line-height: 30px;*/
+        /*}*/
+                            .main__section__7__mobile .section__7__text__plus{
+                                font-size: 16px;
+                                line-height: 30px;
+                            }
+                            .main__section__7__mobile .section__7__text__plus_2{
+                                display: none;
+                            }
+                            .left_white_tel {
+
+                                /*padding-left: 40px;*/
+                                padding-left: 12%;
+                                /*padding-top: 3%;*/
+
+                            }.left_black_tel{
+                                  padding-left: 8%;
+                                  /*padding-top: 3%;*/
+                              }
+
+                            /*.left_top_black__iphone{*/
+                            /*    !*padding-top: 3%;*!*/
+                            /*}*/
+
+        .padding_top_white_tel{
+            padding-top: 3%;
+            /*padding-left: 5%;*/
         }
-        .main__section__7__mobile .section__7__text__plus_2{
-            text-align: center;
-            font-family: Avenir-Medium;
-            font-size: 18px;
-            line-height: 30px;
+
+        .padding_top_black_tel{
+            padding-top: 2%;
+            padding-right: 5%;
+            padding-left: 0;
+        }
+        .padding_top_black__iphone{
+            padding-top: 10%;
+            padding-left: 7%;
+        }
+
+        .cont_1{
+            padding-bottom: 5%;
+        }
+        .cont_2{
+            padding-bottom: 5%;
+        }
+        .cont_3{
+            padding-bottom: 5%;
         }
 
         .main__section__7__mobile .white_tel{
@@ -1135,7 +1389,7 @@
         }
         .main__section__7__mobile .white_tel .img_white_tel{
             width: 100%;
-            max-width: 88%;
+            max-width: 100%;
         }
 
         .main__section__7__mobile .black_tel{
@@ -1146,8 +1400,15 @@
         }
         .main__section__7__mobile .black_tel .img_black_tel{
             width: 100%;
-            max-width: 88%;
+            max-width: 100%;
         }
+
+                        .main__section__7__mobile .display_bloc_none_2{
+                            display: none;
+                        }
+                        .main__section__7__mobile .display_bloc_none {
+                            display: block;
+                        }
 
         .main__section__7__mobile .black__iphone{
             padding-right: 0;
@@ -1159,6 +1420,7 @@
             width: 100%;
             max-width: 88%;
         }
+
 
 
 
@@ -1225,6 +1487,17 @@
 
         .nav-item {
             margin-right: 50px;
+        }
+
+        .main__section_text{
+            font-size: 20px;
+            max-width: 90%;
+            padding-top: 140px;
+            line-height: 30px;
+        }
+        .main__section_title{
+            font-size: 145px;
+            line-height: 130px;
         }
 
 
@@ -1364,6 +1637,29 @@
 
 
 
+        @media (min-width: 1200px)and (max-width: 1400px){
+            .main__section_text{
+                font-size: 21px;
+                max-width: 90%;
+                padding-top: 150px;
+            }
+            .main__section_title{
+                font-size: 175px;
+                line-height: 150px;
+            }
+        }
+        @media (min-width: 1400px)and (max-width: 1620px){
+            .main__section_text{
+                font-size: 23px;
+                padding-top: 157px;
+            }
+            .main__section_title{
+                font-size: 200px;
+                line-height: 170px;
+            }
+        }
+
+
             @media (min-width: 1200px)and (max-width: 1620px){
 
 
@@ -1461,9 +1757,7 @@
 
 
     @media (min-width: 1620px) {
-        .main__section_text{
-            font-size: 26px;
-        }
+
         .main__section__7__mobile .section__7__text__plus_2{
             display: none;
         }
@@ -1551,23 +1845,23 @@
     /*}*/
 
 
-    @media (min-width: 375px) and (max-width: 430px){
-        .main__section_title{
-            font-size: 85px;
-            line-height: 80px;
-            /*padding-left: 25px;*/
-            padding-left: 5%;
-        }
-    }
+    /*@media (min-width: 375px) and (max-width: 430px){*/
+    /*    .main__section_title{*/
+    /*        font-size: 85px;*/
+    /*        line-height: 80px;*/
+    /*        !*padding-left: 25px;*!*/
+    /*        padding-left: 5%;*/
+    /*    }*/
+    /*}*/
 
-    @media (min-width: 430px) and (max-width: 768px){
-        .main__section_title{
-            font-size: 100px;
-            line-height: 90px;
-            /*padding-left: 30px;*/
-            padding-left: 4%;
-        }
-    }
+    /*@media (min-width: 430px) and (max-width: 768px){*/
+    /*    .main__section_title{*/
+    /*        font-size: 100px;*/
+    /*        line-height: 90px;*/
+    /*        !*padding-left: 30px;*!*/
+    /*        padding-left: 4%;*/
+    /*    }*/
+    /*}*/
 
     /*@media (min-width: 576px) and (max-width: 620px){*/
     /*    !*.main__section_title{*!*/
@@ -1583,20 +1877,22 @@
     /*}*//* ПЕРЕНІС СТИЛІ В МЕДІА 576-768Ррх*/
 
 
-    @media (min-width: 768px) and (max-width: 930px){/*max-width: font-size was 910px*/
-        .main__section_title{
-            font-size: 140px;
-            line-height: 130px;
-        }
-    }
+    /*@media (min-width: 768px) and (max-width: 930px){!*max-width: font-size was 910px*!*/
+    /*    .main__section_title{*/
+    /*        font-size: 140px;*/
+    /*        line-height: 130px;*/
+    /*    }*/
+    /*}*/
 
-    @media (min-width: 930px)/*min-width: font-size was 910px*/ and (max-width: 1140px){
-        .main__section_title{
-            font-size: 170px;
-            line-height: 160px;
-            padding-left: 4%;
-        }
-    }
+    /*@media (min-width: 930px)!*min-width: font-size was 910px*! and (max-width: 1140px){*/
+    /*    .main__section_title{*/
+    /*        font-size: 170px;*/
+    /*        line-height: 160px;*/
+    /*        padding-left: 4%;*/
+    /*    }*/
+    /*}*/
+
+
     @media (min-width: 1920px) {
         .container-fluid{
             max-width: 1920px;

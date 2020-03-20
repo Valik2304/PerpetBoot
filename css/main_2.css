@@ -65,7 +65,7 @@
 
     /*Section__1 start*/
     .main__section{
-        background: url("../img/Mask Group_Background_Header.png") no-repeat;
+        background: url("../svg/Mask Group_New_Background_Header.svg") no-repeat;
         background-size: cover;
         background-position-x: right;
         padding-right: 10%;/*8%*/
