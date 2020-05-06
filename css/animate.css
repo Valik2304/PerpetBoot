@@ -1574,6 +1574,7 @@
 .fadeInRightBig {
     -webkit-animation-name: fadeInRightBig;
     animation-name: fadeInRightBig;
+
 }
 
 @-webkit-keyframes fadeInUp {

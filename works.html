@@ -6,44 +6,91 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Perpetio 2</title>
+    <title>Perpetio</title>
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/works.css">
+    <link rel="stylesheet" href="css/careers.css">
     <link rel="stylesheet" href="css/font.css">
 </head>
 <body>
 
-<header class="header sticky-top">
+<div class="none collapse navbar-collapse justify-content-end fixed-top" id="navbarsExample09" style="z-index: 5000">
+    <div class="grey_backg" style=" ">
 
-    <nav class="navbar navbar-expand-lg navbar-light  rounded">
+    </div>
+    <div class="blue_backg" style="">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="my-1 mx-2 close"></span>
+        </button>
+
+        <ul class="navbar-nav mr-auto" style="position: absolute; z-index: 1; margin-top: 5px; margin-right: 0 !important;">
+            <!--                     margin-right: 0 !important; - використав щоб занулити дію класу mr-auto( не пускає меню навігації вправо від лого Perpetio)-->
+            <li class="nav-item ">
+                <a class="nav-link home " href="../index.html">Home
+                    <!--                                        <span class="sr-only">(current)</span>-->
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link current" href="../works.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link contact" href="../contact_us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Let’s talk</a>
+            </li>
+
+        </ul>
+        <p class="text_backg" style="">Get in <br> touch</p>
+    </div>
+</div>
+
+
+
+<header class="header scroll demo-scroll-shadows--black fixed-top" style="">
+
+
+
+    <nav class="navbar navbar-expand-md  navbar-light rounded">
         <a href="/" class="navbar-brand hvr-buzz">
             <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
                 aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+            <!--            <span class="my-1 mx-2 close">X</span>-->
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarsExample09">
-            <ul class="navbar-nav mr-auto" style="margin-top: 5px; margin-right: 0 !important;">
+        <div class="вава collapse navbar-collapse justify-content-end" id="navbarsExample09">
+            <ul class="navbar-nav mr-auto" style="margin-top: 5px;
+                margin-right: 0 !important;">
+                <!--                     margin-right: 0 !important; - використав щоб занулити дію класу mr-auto( не пускає меню навігації вправо від лого Perpetio)-->
                 <li class="nav-item active">
                     <a class="nav-link home" href="../index.html">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../works.html">Portfolio</a>
+                    <a class="nav-link current" href="../works.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../careers.html">Careers</a>
+                    <a class="nav-link " href="../careers.html">Careers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link" href="../blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link contact" href="#">Contact Us</a>
+                    <a class="nav-link contact" href="../contact_us.html">Contact Us</a>
                 </li>
                 <!--                <li class="nav-item">-->
                 <!--                    <a class="nav-link disabled" href="#">Disabled</a>-->
@@ -59,12 +106,14 @@
                 <!--                </li>-->
             </ul>
         </div>
+
     </nav>
+
 </header>
 
     <main>
         <div class="container-fluid" style="">
-                <div>
+                <div class="navigate_links">
                     <h1 style="">Works</h1>
                     <ul style="">
                         <li style=""><a href="#">UI/UX</a></li>
@@ -78,13 +127,14 @@
             <div class="row">
                 <div class=" col-md-5 text-white">
                    <div class="two-cart cart-1">
-                       <a href="../burn_case.html"><div class="cart-content ">
-                           <div class="size seven_procent_bottom">
-                               <p><img src="../img/Group 65.png" alt=""></p>
-                               <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
-                               <p>iOS / Android / Web</p>
+                       <a href="../burn_case.html">
+                           <div class="cart-content ">
+                               <div class="size seven_procent_bottom">
+                                   <p><img class="shadow" src="../img/Group 65.png" alt=""></p>
+                                   <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
+                                   <p>iOS / Android / Web</p>
+                               </div>
                            </div>
-                       </div>
                        </a>
                    </div>
                 </div>
@@ -96,7 +146,7 @@
                         <a href="../burn_case.html">
                             <div class="cart-content">
                                 <div class="size">
-                                    <p><img src="../img/Group 65.png" alt=""></p>
+                                    <p><img class="shadow" src="../img/Group 65.png" alt=""></p>
                                     <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
                                     <p>iOS / Android / Web</p>
                                 </div>
@@ -114,7 +164,7 @@
                         <a href="../burn_case.html">
                             <div class="cart-content">
                                 <div class="size">
-                                    <p><img src="../img/Group 65.png" alt=""></p>
+                                    <p><img class="shadow" src="../img/Group 65.png" alt=""></p>
                                     <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
                                     <p>iOS / Android / Web</p>
                                 </div>
@@ -128,7 +178,7 @@
                         <a href="../burn_case.html">
                             <div class="cart-content">
                                 <div class="size seven_procent_bottom">
-                                    <p><img src="../img/Group 65.png" alt=""></p>
+                                    <p><img class="shadow" src="../img/Group 65.png" alt=""></p>
                                     <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
                                     <p>iOS / Android / Web</p>
                                 </div>
@@ -144,7 +194,7 @@
                         <a href="../burn_case.html">
                             <div class="cart-content">
                                 <div class="size seven_procent_bottom">
-                                    <p> <img src="../img/Group 65.png" alt=""></p>
+                                    <p> <img class="shadow" src="../img/Group 65.png" alt=""></p>
                                     <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
                                     <p>iOS / Android / Web</p>
                                 </div>
@@ -158,7 +208,7 @@
                         <a href="../burn_case.html">
                             <div class="cart-content">
                                 <div class="size">
-                                    <p><img src="../img/Group 65.png" alt=""></p>
+                                    <p><img class="shadow" src="../img/Group 65.png" alt=""></p>
                                     <p>777The BURN – makes it so easy  to stay on track with  an electronic workout calendar, so you’ll never skip leg day.</p>
                                     <p>iOS / Android / Web</p>
                                 </div>
@@ -198,19 +248,24 @@
         </div>
 
 
+
+        <div class="div_1">
+
+        </div>
+
         <div class="div_2">
-            <div class="div_2_background">Get in <br> touch</div>
+            <div class="div_2_background">Get in <br> Touch</div>
             <div class="row">
-                <div class="col-md-7">
+                <div class="col-md-8">
                     <h1 class="div_2_tittle ">Share your idea</h1>
                     <form action="" class="form_message">
                         <div class="row">
 
-                            <div class="col-md-6 col_name">
+                            <div class="col-sm-6 col-md-6 col_name">
                                 <input type="text" class="field name" placeholder="Your Name...">
                             </div>
 
-                            <div class="col-md-6 input_email">
+                            <div class="col-sm-6 col-md-6 input_email">
                                 <input type="text" class="field email" placeholder="Your E-Mail...">
                                 <img src="../svg/alert-circle.svg" class="img_email_circle" alt="">
                             </div>
@@ -225,27 +280,28 @@
                     </form>
                 </div>
 
-                <div class="col-md-5 text-right">
+                <div class="col-md-4 text-right">
                     <!--                    <ul style="list-style:none; color: white">-->
                     <!--                        <li>asdasdasd</li>-->
                     <!--                        <li>ghdsdfsd</li>-->
                     <!--                        <li>asdgsdfsd</li>-->
                     <!--                    </ul>-->
                     <ul class="list-unstyled text-center">
-                        <li><img src="../svg/Group_logo_Facebook.svg" alt=""></li>
-                        <li><img src="../svg/Group_logo_Instagram.svg" alt=""></li>
-                        <li><img src="../svg/Group_logo_Ball.svg" alt=""></li>
-                        <li><img src="../svg/Group_logo_Be.svg" alt=""></li>
-                        <li><img src="../svg/medium-size_logo_M.svg" alt=""></li>
+                        <li><a href="#"><img src="../svg/Group_logo_Facebook.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../svg/Group_logo_Instagram.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../svg/Group_logo_Ball.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../svg/Group_logo_Be.svg" alt=""></a></li>
+                        <li><a href="#"><img src="../svg/medium-size_logo_M.svg" alt=""></a></li>
                     </ul>
                 </div>
             </div>
         </div>
+
         <footer>
             <div >
                 <ul class="footer">
-                    <li>provacy policy</li>
-                    <li>terms and conditions</li>
+                    <li><a href="#">provacy policy</a></li>
+                    <li><a href="#">terms and conditions</a></li>
                 </ul>
             </div>
         </footer>
@@ -254,6 +310,10 @@
 
 <!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script src="js/javasckript.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>

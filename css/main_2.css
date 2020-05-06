@@ -38,9 +38,9 @@
         /*color: #333333;*/
     }
 
-       .nav-link.home{
-            font-family: Avenir-Black;
-       }
+       /*.nav-link.home{*/
+       /*     font-family: Avenir-Black;*/
+       /*}*/
         .nav-link.contact{
             color: #3095F2 !important;
             border: 2px solid #3095F2;

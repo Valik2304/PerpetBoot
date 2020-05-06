@@ -3,9 +3,224 @@
 /*    width: 800px;*/
 /*    height: 800px;*/
 /*}*/
-
-@media (min-width: 1920px) {
-    .container-fluid{
-        max-width: 1920px;
-    }
+.parent{
+    background: url("../svg/Mask Group_Parent_bg.svg") no-repeat;
+    background-position: left 400px;
+    /*background-size: contain;*/
+    background-size: 93%;
 }
+
+    .row{
+        margin-right: 0;
+    }
+    .parent .bloc_one{
+        padding-left: 10%;
+    }
+    .parent .bloc_one .careers_text{
+        max-width: 70%;
+    }
+    .parent .bloc_one h1{
+        font-family: ProductSans-Bold;
+        font-size: 96px;
+        line-height: 116px;
+        color: #333333;
+        padding-bottom: 60px;
+    }
+
+    .parent .bloc_one p{
+        /*max-width: 70%; те саме що і max-width: 70% в .careers_text*/
+        font-family: Avenir-Light;
+        font-size: 24px;
+        line-height: 34px;
+        color: #000000;
+        padding-bottom: 20px;
+    }
+    .parent .bloc_one .col-md-6.picture_careers{
+        padding-right: 0;
+        text-align: end;
+        width: 100%;
+    }
+    .parent .bloc_one .col-md-6.picture_careers img{
+        width: 100%;
+        max-width: 750px;
+        padding-top: 40px;
+    }
+
+
+
+    .parent .bloc_two{
+        padding-left: 15%;
+        padding-right: 15%;
+        padding-bottom: 100px;
+    }
+
+    .parent .bloc_two h1{
+        text-align: center;
+        font-family: Avenir-Black;
+        font-size: 36px;
+        line-height: 49px;
+        text-transform: uppercase;
+        padding-bottom: 40px;
+    }
+    .parent .bloc_two .card{
+        background: transparent;
+        border: none;
+        border-top: 1px solid #E0E0E0;
+        /*border-bottom: none;*/
+        /*border-left: none;*/
+        /*border-right: none;*/
+    }
+
+    .parent .bloc_two .card-header {
+        background: transparent;
+        border-bottom: none;
+        text-align: left;
+        /*cursor: pointer;*/
+    }
+
+    .parent .bloc_two .card-header .mb-0:before {
+    content: "";
+    height: 10px;
+    transform: rotate(45deg);
+    width: 10px;
+    margin-right: 32px;
+    margin-top: 20px;
+    border-width: 0 2px 2px 0;
+    border-color: #828282;
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    }
+    .parent .bloc_two .card-header .mb-0:after {
+    display: none;
+    content: "";
+    height: 10px;
+    transform: rotate(-135deg);
+    width: 10px;
+    margin-right: 32px;
+    margin-top: 20px;
+    border-width: 0 2px 2px 0;
+    border-color: #1C72C2;
+    border-style: solid;
+    position: absolute;
+    right: 0;
+    }
+
+    .parent .bloc_two .card-header.collapsed:hover .mb-0:before, .parent .bloc_two .card-header.collapsed:active .mb-0:before{
+        border-color: #1C72C2;
+    }
+     .parent .bloc_two .card-header:not(.collapsed) .mb-0:before{
+         display: none;
+    }
+    .parent .bloc_two .card-header:not(.collapsed) .mb-0:after{
+       display: contents;
+    }
+
+
+    .parent .bloc_two .card-header:hover .btn-link, .parent .bloc_two .card-header:focus .btn-link{
+        color: #1C72C2;
+    }
+    .parent .bloc_two .card-header:not(.collapsed) .btn-link, .parent .bloc_two .card-header:not(.collapsed):focus .btn-link{
+        color: #1C72C2;
+    }
+
+
+    .parent .bloc_two .card-header .btn{
+        font-family: Avenir-Heavy;
+        font-size: 30px;
+        line-height: 42px;
+        color: #3095F2;
+    }
+    .parent .bloc_two .card-header .btn-link:hover, .parent .bloc_two .card-header .btn-link:focus{
+        /*color: #3095F2;*/
+        /*color: #1C72C2;*/
+        text-decoration: none;
+    }
+
+    .parent .bloc_two .row h5{
+        font-family: Avenir-Black;
+        font-size: 20px;
+        line-height: 25px;
+        color: #000000;
+        padding-top:50px;
+        padding-bottom:20px;
+    }
+    .parent .bloc_two .row .col-6 .max_width{
+        max-width: 85%;
+    }
+    .parent .bloc_two .row ul{
+        padding-left: 0;
+    }
+    .parent .bloc_two .row ul li{
+        color: #3095F2;
+    }
+            .parent .bloc_two .mar_bottom p{
+                margin-bottom: 7px;
+            }
+
+            .parent .bloc_two .mar_bottom_one p{
+                margin-bottom: 25px;
+            }
+
+    .parent .bloc_two .card-body p{
+    font-family: Avenir-Medium;
+        font-size: 18px;
+        line-height: 25px;
+        color: #828282;
+    }
+
+
+
+
+.parent .bloc_two .apply_position{
+    text-align: center;
+    padding-bottom: 40px;
+    /*display: none;*/
+}
+/*.parent .bloc_two .apply_position:last-child{*/
+/*    text-align: center;*/
+/*    padding-bottom: 0;*/
+/*    !*display: none;*!*/
+/*}*/
+.parent .apply_position button{
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 28px;
+    width: 250px;
+    padding: 15px 0;
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #3095F2
+}
+
+
+
+    .div_1{
+        min-height: 400px;
+        height: 100%;
+        background: url("../img/Vector 6_NEW_bg_footer.png") no-repeat;
+        background-size: 100%;
+        background-position: bottom;
+    }
+
+/*.container-fluid{*/
+/*    padding-right: 10%;*/
+/*    padding-left: 10%;*/
+/*}*/
+
+/*.picture_careers{*/
+/*    height: 600px;*/
+/*    background: url("../svg/Mask GroupPic_Careers_.svg") no-repeat;*/
+/*    background-size: cover;*/
+/*    background-position: left;*/
+/*    position: relative;*/
+/*    !*left: 200px;*!*/
+/*    text-align: end;*/
+/*}*/
+/*@media (min-width: 1920px) {*/
+/*    .container-fluid{*/
+/*        max-width: 1920px;*/
+/*    }*/
+/*}*/

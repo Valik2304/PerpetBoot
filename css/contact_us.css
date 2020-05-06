@@ -1,0 +1,148 @@
+.header {
+    background-color: transparent;
+    padding: 20px 9.5% 10px 9.5%;
+}
+
+.scroll {
+    box-shadow: 0 4px 35px rgba(0, 87, 167, 0.15);
+    background: #FFFFFF;
+    transition: all 0.9s ease 0s;
+}
+
+.parent{
+    background-image:
+    /*        linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%),*/
+    /*radial-gradient(54.02% 57.05% at 56.55% 34.52%, rgba(255, 255, 255, 0) 0%,*/
+    /*        #FFFFFF 100%), */
+    url("../svg/New_map_.svg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    /*background-size: contain;*/
+    /*background-size: 90%;*/
+    background-size:  65%;/*70%*/
+    background-position-y: -70px;/*80px*/
+}
+.parent .parent_two{
+    background: url("../svg/Mask Group_BG_form_Get_in_Touch.svg") no-repeat;
+    /*background-size: contain;*/
+    background-size: 75%;
+    background-position: left bottom;
+}
+
+.parent .parent_two .bloc_one{
+    padding-left: 10%;
+}
+.parent .parent_two .bloc_one .careers_text{
+    max-width: 70%;
+}
+.parent .parent_two .bloc_one h1{
+    font-family: ProductSans-Bold;
+    font-size: 96px;
+    line-height: 116px;
+    color: #333333;
+    padding-bottom: 40px;
+}
+
+.parent .parent_two .bloc_one p{
+    /*max-width: 70%; те саме що і max-width: 70% в .careers_text*/
+    font-family: Avenir-Heavy;
+    font-size: 24px;
+    line-height: 34px;
+    color: #333333;
+    padding-bottom: 20px;
+}
+
+
+.parent .parent_two .bloc_two{
+    padding-left: 10%;
+}
+
+.parent .parent_two .bloc_two .div_2{
+    background: transparent;
+    min-height: 500px;
+}
+.parent .parent_two .bloc_two .div_2 .row .col-md-8 {
+    padding-left: 15px;
+    padding-right: 0;
+}
+
+.parent .parent_two .bloc_two .div_2 .form_message .field {
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #4F4F4F;
+    color: #4F4F4F;
+}
+
+.parent .parent_two .bloc_two .field::placeholder{
+    color: #4F4F4F;
+    opacity: 1;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .name {
+    background: url("../svg/person_Grey_logo_name.svg") no-repeat left center;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .email {
+    background: url("../svg/email_Grey_logo_email_.svg") no-repeat left center;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .button {
+    background: #3095F2 !important;
+    width: 180px;
+    box-sizing: border-box;
+    padding: 16px 0;
+    border-radius: 28px;
+    border-bottom: none !important;
+    color: #FFFFFF;
+}
+.parent .parent_two .bloc_two .div_2 .form_message .button:hover {
+    background: #556dcc!important;
+    transition: all 0.7s ease 0s;
+}
+
+
+
+            /*.div_2 {*/
+            /*    min-height: 500px;*/
+            /*}*/
+
+
+
+.bloc_tree .div_1{
+    min-height: 300px;
+    height: 100%;
+    background: url("../img/Vector 6_Address_bg.png") no-repeat;
+    /*background-position-x: 0%;*/
+    /*background-position-y: 0%;*/
+    /*background-size: auto;*/
+    background-size: 100%;
+    background-position: bottom;
+}
+
+.bloc_tree .div_2{
+    min-height: 400px;
+}
+.bloc_tree .div_2 .div_2_background {
+    /*top: 100px;*/
+    top: 30px;
+}
+.bloc_tree .div_2  .col-md-8 .row .col-md-6 .max_width_bloc{
+    color: #FFFFFF;
+    max-width: 70%;
+}
+.bloc_tree .div_2  .col-md-8 .row .col-md-6 .max_width_bloc h3{
+    font-family: Roboto;
+    font-size: 24px;
+    line-height: 39px;
+    letter-spacing: -0.02em
+}
+.bloc_tree .div_2  .col-md-8 .row .col-md-6 .max_width_bloc p{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 29px;
+    letter-spacing: -0.02em
+}
+.bloc_tree .div_2 .list-unstyled {
+    padding-top: 40px;
+    /*padding-top: 110px;*/
+    /*padding-right: 20%;*/
+    /*padding-left: 50%;*/
+}

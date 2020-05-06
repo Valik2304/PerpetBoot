@@ -1,0 +1,99 @@
+/*.parent .bloc_one .col-md-6.picture_careers .sdcsdv{*/
+/*    position: relative;*/
+/*}*/
+/*.parent .bloc_one .col-md-6.picture_careers .dsc:before{*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    background: linear-gradient(180deg, #0077E4 0%, #A2D2FF 100%), url("../svg/Vector 2wgfrsgf.svg");*/
+/*}*/
+.parent .row{
+    margin-left: 0;
+    margin-right: 0;
+}
+.parent .row .col-md-3, .parent .row .col-md-3{
+    padding-left: 0;
+    padding-right: 0;
+}
+.parent {
+    background: url("../svg/Mask Group_Parent_bg.svg") no-repeat;
+    background-position: -70px top;
+    background-size: 90%;
+}
+.parent .bloc_padding_left_right{
+    padding-left: 22%;
+    padding-right: 22%;
+}
+.parent .bloc_padding_top_border{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    border-bottom: 2px solid #E0E0E0
+}
+.parent .h3_font_avenir_heavy{
+    font-family: Avenir-Heavy;
+    font-size: 30px;
+    line-height: 42px;
+}
+.parent .h3_padding_bottom{
+    padding-bottom: 20px;
+    padding-left: 30px;
+}
+
+.parent .p_font_avenir_book{
+    font-family: Avenir-Book;
+    font-size: 18px;
+    line-height: 29px;
+}
+.parent .bloc_two{
+    padding-left: 10%;
+    padding-right: 10%;
+    border-bottom: 2px solid #E0E0E0;
+}
+.parent .bloc_two .row .col-6.col_6_one{
+    max-width: 30%
+}
+.parent .bloc_two .row .col-6.col_6_two{
+    max-width: 50%; margin: auto 0
+}
+.parent .bloc_two .row .col-6 img{
+    margin-left: -35px;
+}
+
+.parent .bloc_five{
+    padding-right: 10%;/*10*/
+    padding-left: 10%;/*10*/
+}
+.parent .bloc_six .col-md-3{
+padding-right: 0;
+}
+/*.parent .girls{*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.parent .bloc_seven h6{
+    font-family: Avenir-Heavy;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.parent .bloc_seven span{
+    font-family: Avenir-Light;
+    font-size: 18px;
+    line-height: 30px;
+}
+.parent .bloc_seven .row .col-sm-4{
+    padding-left: 0;
+}
+/*.parent .bloc_seven .row .max_width{*/
+/*    max-width: 70%;*/
+/*}*/
+
+.parent .bloc_eight button{
+    width: 150px;
+    background: #4E4E4E;
+    border-radius: 28px;
+    border: 2px solid #4E4E4E;
+    /*color: #FFFFFF;*/
+    padding: 5px 10px;
+    overflow: hidden;
+}

@@ -11,30 +11,75 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover.css">
-<!--    <link rel="stylesheet" href="css/layout-media.css">-->
-    <link rel="stylesheet" href="css/main_2.css">
+    <!--            <link rel="stylesheet" href="css/layout-media.css">-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/blog.css">
     <link rel="stylesheet" href="css/font.css">
+
+    <!--            <script src="js/wow.min.js"></script>-->
 </head>
 <body>
 
 
 
-<header class="header sticky-top fixed-top">
+<div class="none collapse navbar-collapse justify-content-end fixed-top" id="navbarsExample09" style="z-index: 5000">
+    <div class="grey_backg">
+
+    </div>
+    <div class="blue_backg">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
+                                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="my-1 mx-2 close"></span>
+                        </button>
+
+        <ul class="navbar-nav mr-auto" style="position: absolute; z-index: 1; margin-top: 5px; margin-right: 0 !important;">
+            <!--                     margin-right: 0 !important; - використав щоб занулити дію класу mr-auto( не пускає меню навігації вправо від лого Perpetio)-->
+            <li class="nav-item ">
+                <a class="nav-link home " href="../index.html">Home
+                    <!--                                        <span class="sr-only">(current)</span>-->
+                </a>
+            </li>
+            <li class="nav-item ">
+                <a class="nav-link" href="../works.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="../careers.html">Careers</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link current" href="../blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link " href="../contact_us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Let’s talk</a>
+            </li>
+
+        </ul>
+        <p class="text_backg">Get in <br> touch</p>
+    </div>
+</div>
 
 
 
-    <nav class="navbar navbar-expand-lg  navbar-light rounded">
+<header class="header scroll demo-scroll-shadows--black fixed-top" style="">
+
+
+
+    <nav class="navbar navbar-expand-md  navbar-light rounded">
         <a href="/" class="navbar-brand hvr-buzz">
             <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">
         </a>
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"
                 aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
+<!--            <span class="my-1 mx-2 close">X</span>-->
         </button>
 
-        <div class="collapse navbar-collapse justify-content-end" id="navbarsExample09">
+        <div class="вава collapse navbar-collapse justify-content-end" id="navbarsExample09">
             <ul class="navbar-nav mr-auto" style="margin-top: 5px;
-                        margin-right: 0 !important;">
+                margin-right: 0 !important;">
                 <!--                     margin-right: 0 !important; - використав щоб занулити дію класу mr-auto( не пускає меню навігації вправо від лого Perpetio)-->
                 <li class="nav-item active">
                     <a class="nav-link home" href="../index.html">Home <span class="sr-only">(current)</span></a>
@@ -43,20 +88,37 @@
                     <a class="nav-link" href="../works.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="../careers.html">Careers</a>
+                    <a class="nav-link " href="../careers.html">Careers</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
+                    <a class="nav-link current" href="../blog.html">Blog</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link contact" href="../contact_us.html">Contact Us</a>
                 </li>
-
+                <!--                <li class="nav-item">-->
+                <!--                    <a class="nav-link disabled" href="#">Disabled</a>-->
+                <!--                </li>-->
+                <!--                <li class="nav-item dropdown">-->
+                <!--                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"-->
+                <!--                       aria-haspopup="true" aria-expanded="false">Dropdown</a>-->
+                <!--                    <div class="dropdown-menu" aria-labelledby="dropdown09">-->
+                <!--                        <a class="dropdown-item" href="#">Action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Another action</a>-->
+                <!--                        <a class="dropdown-item" href="#">Something else here</a>-->
+                <!--                    </div>-->
+                <!--                </li>-->
             </ul>
         </div>
+
     </nav>
 
 </header>
+
+
+
+
+
 
 
 <main class="main">
@@ -79,7 +141,58 @@
 </main>
 
 
+
+<!--<header class="header scroll demo-scroll-shadows&#45;&#45;black fixed-top">-->
+
+<!--    <nav class="navbar navbar-expand-lg navbar-light  rounded">-->
+<!--        <a href="/" class="navbar-brand hvr-buzz">-->
+<!--            <img src="/svg/perpetio_logo_SVG.svg" alt="Perpetio" class="logo">-->
+<!--        </a>-->
+<!--        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample09"-->
+<!--                aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">-->
+<!--            <span class="navbar-toggler-icon"></span>-->
+<!--        </button>-->
+
+<!--        <div class="collapse navbar-collapse justify-content-end" id="navbarsExample09">-->
+<!--            <ul class="navbar-nav mr-auto" style="margin-top: 5px; margin-right: 0 !important;">-->
+<!--                <li class="nav-item active">-->
+<!--                    <a class="nav-link home" href="../index.html">Home <span class="sr-only">(current)</span></a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link current" href="../works.html">Portfolio</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="../careers.html">Careers</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link" href="../blog.html">Blog</a>-->
+<!--                </li>-->
+<!--                <li class="nav-item">-->
+<!--                    <a class="nav-link contact" href="../contact_us.html">Contact Us</a>-->
+<!--                </li>-->
+<!--                &lt;!&ndash;                <li class="nav-item">&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <a class="nav-link disabled" href="#">Disabled</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--                &lt;!&ndash;                <li class="nav-item dropdown">&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <a class="nav-link dropdown-toggle" href="http://example.com" id="dropdown09" data-toggle="dropdown"&ndash;&gt;-->
+<!--                &lt;!&ndash;                       aria-haspopup="true" aria-expanded="false">Dropdown</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    <div class="dropdown-menu" aria-labelledby="dropdown09">&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <a class="dropdown-item" href="#">Action</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <a class="dropdown-item" href="#">Another action</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                        <a class="dropdown-item" href="#">Something else here</a>&ndash;&gt;-->
+<!--                &lt;!&ndash;                    </div>&ndash;&gt;-->
+<!--                &lt;!&ndash;                </li>&ndash;&gt;-->
+<!--            </ul>-->
+<!--        </div>-->
+<!--    </nav>-->
+<!--</header>-->
+
+<!--<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<script src="js/wow.min.js"></script>
+<script src="js/javasckript.js"></script>
+
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
         crossorigin="anonymous"></script>
@@ -94,9 +207,10 @@
     $(function () {
         $('[data-toggle="popover"]').popover()
     })
-
-    $('.collapse').collapse()
 </script>
-<!--hello-->
+
+<script>
+    new WOW().init();
+</script>
 </body>
 </html>
